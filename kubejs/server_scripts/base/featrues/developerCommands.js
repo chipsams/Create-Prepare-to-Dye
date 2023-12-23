@@ -8,13 +8,13 @@ global.customCommandGiveItems = (c) => {
   try{
     let nbt = {BlockEntityTag:{stacks: []}, display:{Name:`{"text":"items"}`}}
 
+    //there's definitely a better way to do this, but the command is so simple and only for development that it simply isn't of concern.
     let text = c.getInput().replace("getcrate ","");
 
-    JSON.parse(text.replaceAll("'",'"')).forEach((element,i) => {
+    //json doesn't like single quotes, for some reason.
+    JSON.parse(text.replaceAll("'",'"')).forEach(element => {
       nbt.BlockEntityTag.stacks.push({Count:1, id: element})
     });
-
-    let pos = c.source.position;
 
     c.source.server.runCommandSilent(`/give @p quark:crate${JSON.stringify(nbt)}`)
 
@@ -24,6 +24,7 @@ global.customCommandGiveItems = (c) => {
   return 1;
 }
 
+//this is basically just to make sure the command doesn't need a full /reload cycle to update functionality, although since the speed up it really isn't as big a concern.
 function wrapCall(c){
   return global.customCommandGiveItems(c)
 }
