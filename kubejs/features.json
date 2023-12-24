@@ -215,10 +215,11 @@
 	"Remove nether tree fungi": true,
 	"Remove quark saplings": true,
 	"Remove assembly halo and manufactory halo": true,
-	"No More Ingots": false,
+	"No More Ingots": true,
 	"Cut any plank to 2 sticks": true,
 	"Monorail track alternate recipe": true,
 	"silicon slow smelting from quartz": true,
 	"You can pet betsy": true,
-	"Command to teleport to Betsy": true
+	"Command to teleport to Betsy": true,
+	"Remove vanilla bonemeal from bones recipe": true
 }

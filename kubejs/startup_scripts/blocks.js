@@ -19,7 +19,7 @@ StartupEvents.registry("fluid", (event) => {
 StartupEvents.registry("item", (event) => {
   event
     .create("fermented_blob")
-    .displayName("Fermented Blob")
+    .displayName("Fermented Blob")  
     .food((food) => {
       food
         .hunger(3)
@@ -38,6 +38,7 @@ StartupEvents.registry("item", (event) => {
     event.create("ptdye:incomplete_logic_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_red_stringed_device", 'create:sequenced_assembly');
+    event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
 });
 
 
@@ -104,6 +105,7 @@ StartupEvents.registry("block", (event) => {
       .noValidSpawns(true)
       .suffocating(false)
       .viewBlocking(false)
+      .defaultCutout()
       .transparent(true);
   }
 
@@ -136,14 +138,14 @@ StartupEvents.registry("block", (event) => {
     .material("leaves")
     .soundType("grass")
     .box(4,0,4,12,12,12)
-    
     .item(item=>{
       item.parentModel("minecraft:item/generated").texture("layer0","ptdye:block/botanic_device")
     });
 
   device("ptdye:furnished_device")
-    .material("metal")
-    .soundType("wood");
+    .material("wood")
+    .soundType("wood")
+    .box(0, 0, 0, 16, 12, 16);
 
   device("ptdye:mechanical_device")
     .material("metal")
