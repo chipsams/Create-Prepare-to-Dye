@@ -36,10 +36,13 @@ StartupEvents.registry("item", (event) => {
     event.create("ptdye:incomplete_smart_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_locomotive_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_logic_device", 'create:sequenced_assembly');
+    event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_red_stringed_device", 'create:sequenced_assembly');
 });
 
+
 StartupEvents.registry("block", (event) => {
+
 
   event.create('ptdye:orange_tube_block')
   .material("metal")
@@ -121,7 +124,26 @@ StartupEvents.registry("block", (event) => {
   device("ptdye:smart_device")
     .material("metal")
     .soundType("metal");
+
+  device('ptdye:floating_botanic_device')
+    .defaultCutout()
+    .material("leaves")
+    .soundType("grass")
+    .box(2,2,2,14,14,14);
+  device('ptdye:botanic_device')
+    .noCollision()
+    .defaultCutout()
+    .material("leaves")
+    .soundType("grass")
+    .box(4,0,4,12,12,12)
     
+    .item(item=>{
+      item.parentModel("minecraft:item/generated").texture("layer0","ptdye:block/botanic_device")
+    });
+
+  device("ptdye:furnished_device")
+    .material("metal")
+    .soundType("wood");
 
   device("ptdye:mechanical_device")
     .material("metal")
