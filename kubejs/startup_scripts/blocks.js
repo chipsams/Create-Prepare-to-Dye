@@ -38,7 +38,6 @@ StartupEvents.registry("item", (event) => {
     event.create("ptdye:incomplete_logic_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
     event.create("ptdye:incomplete_red_stringed_device", 'create:sequenced_assembly');
-    event.create("ptdye:incomplete_furnished_device", 'create:sequenced_assembly');
 });
 
 
