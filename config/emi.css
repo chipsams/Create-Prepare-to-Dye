@@ -156,7 +156,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 11, 7;
+	left-sidebar-size: 7, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -282,7 +282,7 @@
 	/**
 	 * Which theme to use for the bottom sidebar
 	 */
-	bottom-sidebar-theme: vanilla;
+	bottom-sidebar-theme: transparent;
 }
 
 #binds {
@@ -409,7 +409,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "key.keyboard.backslash";
 
 	/**
 	 * In edit mode, hide the hovered stack

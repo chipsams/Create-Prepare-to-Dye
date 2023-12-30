@@ -14,7 +14,7 @@ if (feature("Remove elementium")) {
   removeRecipe({ output: "botania:elementium_ingot" });
   addElvenTrade("botania:terrasteel_ingot", [
     "2x botania:manasteel_ingot",
-    "bread",
+    '#forge:meat',
   ]);
   removeRecipe({ id: "botania:elven_trade/elementium_block" });
   removeItem("botania:elementium_block");
@@ -135,4 +135,11 @@ if (feature("Remove ruunes from flowers")) {
     "minecraft:yellow_dye",
     "botania:livingwood_twig",
   ]);
+}
+
+if (feature('Reduce mana price of manasteel')) {
+  removeRecipe({ id: 'botania:mana_infusion/manasteel' })
+  removeRecipe({ id: 'botania:mana_infusion/manasteel_block' })
+  addInfusion('botania:manasteel_ingot', '#forge:ingots/iron', 1000)
+  addInfusion('botania:manasteel_block', '#forge:storage_blocks/iron', 9000)
 }

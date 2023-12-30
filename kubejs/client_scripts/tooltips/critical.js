@@ -6,7 +6,7 @@ addTooltip(
 );
 addTooltip(
   "white_concrete_powder",
-  "Found abundantly on the planets surface, also seems that the _milk_ here, flowing or source, can be purified with _pure daisy_ to make _white powder_"
+  "Seems that the _milk_ here, flowing or source, can be purified with _pure daisy_ to make _white powder_"
 );
 addTooltip(
   "lava_bucket",
@@ -57,6 +57,8 @@ addTooltip('minecraft:bone_meal', 'An important accelerant for life, some say it
 
 addTooltip('createdieselgenerators:distillation_controller', 'The _Distillery Controller_ allows you to assemble a _Distillery_. Right click on the _tank structure_ you want to transform into a distillery, a controller will be used for each tank attached. Note that you need _one tank per output in addition to the one on the bottom_ that takes the input')
 
+addTooltip('minecraft:egg', 'Feed a _seed_ to a _chicken_ to get an _egg_');
+
 addTooltip([
   'golden_pickaxe',
   'golden_shovel',
@@ -64,6 +66,13 @@ addTooltip([
   'golden_sword',
   'golden_hoe'
 ], 'Yellow tools are always outfitted with _Fortune_, widely used in production lines and slave mines')
+
+addTooltip([
+  'diamond_pickaxe',
+  'diamond_shovel',
+  'diamond_axe',
+  'diamond_hoe'
+], 'Light Blue tools are always outfitted with _Silk Touch_, used for collection of delicate minerals and in limb relocation surgeries')
 
 addTooltip([
   'oak_wood',
@@ -90,4 +99,16 @@ addTooltip([
   'dark_oak_log',
   'crimson_stem',
   'warped_stem',
-], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees. _Expect to pay highly to get yours_, that, or... Maybe there is another way too?')
+  'botania:livingwood_log',
+  'botania:livingwood',
+  'botania:dreamwood_log',
+  'botania:dreamwood',
+  'botania:glimmering_livingwood_log',
+  'botania:glimmering_livingwood',
+  'botania:glimmering_dreamwood_log',
+  'botania:glimmering_dreamwood',
+  'quark:blossom_log',
+  'quark:blossom_wood',
+  'quark:stripped_blossom_log',
+  'quark:stripped_blossom_wood',
+], 'Such a basic element, a building block for many things. This planet however does not seem too friendly to trees, none can grow here. _Expect to pay highly to get yours_. It is also said that there are advanced methods that use _chorus fruit_ or _livingwood sticks_ that can also result in useable logs')
