@@ -14,7 +14,11 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "1e16ceae9a2eb94d35e8540807b854fa54e5fb779097adbd8b671af57e60da92"
+hash = "43568c0d5ad3479096029ea0afbd969808323aaf009545fc7b2a5fc7e0f84f41"
+
+[[files]]
+file = "SECURITY.md"
+hash = "48981474996310a7861d97b5aaea8a11ba16d6075c273766daab566848930c09"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -58,7 +62,7 @@ hash = "139f06b91306c0830fb77c4589410fc42687e1adbc57fc4f626b5e71ff83c29d"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "2fa216f6bdcfcd0d76b29bd5b6d7a78c387955d396ad1b1dabd1aa5336a44705"
+hash = "e8a40437348b75ace197dac2be8e26f205802ec3c41a312e7b75b958392e46e4"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -126,7 +130,7 @@ hash = "1d2f724d7226b52a4026480144f21216b48e04b36c989faf78e905ea3c2309bc"
 
 [[files]]
 file = "config/emi.css"
-hash = "40fbdd4f89bbf950b61b2c94159cc8cc33f356da079460e19e07db9782238d21"
+hash = "578095529f07017591565ea2aa0adbeda37583d743b97d144c27788d3a1d491b"
 
 [[files]]
 file = "config/entityculling.json"
@@ -142,7 +146,15 @@ hash = "487ba4f7bcc8a10873a5f9baef0cb95f0e9fb770309de6b83cfed6c6e702e1a6"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "772b5dd05d6f4754545d7e5b35de41d6b00995a5e512364af2eb32f899fe00cd"
+hash = "7878a3cfc26064a21017963dee1e7195246b6dd25aa9470896ea3ccafc9d6ba5"
+
+[[files]]
+file = "config/fancymenu/customization/.disabled/0-automatic-assembly-generics-only.txt"
+hash = "66032c77c9be5e7864133b18b9e0783f5f172a4c9750106f5a487f5e9aa44437"
+
+[[files]]
+file = "config/fancymenu/customization/.disabled/0-no-automatic-assembly.txt"
+hash = "90b4e87c57073349a831b0c5e6eb79d089eef582a240116baa561dcac1b57264"
 
 [[files]]
 file = "config/fancymenu/customization/0-auto-assemble.txt"
@@ -154,11 +166,11 @@ hash = "0e6cd9f81a5bbe3dbec4058938d28684ca725be6aef5f572ff4a4ef2c1cb7ee9"
 
 [[files]]
 file = "config/fancymenu/customization/auto-assembler-slider-base.txt"
-hash = "482bbedfc5361e80c5ccd7d1c9f90c663e22f278946e2d6fd2935c4651bc20a9"
+hash = "90b3af9644e903107578cf537357f3fa271b34abb496b152c707e3d31aa8bf8c"
 
 [[files]]
 file = "config/fancymenu/customization/betsy.txt"
-hash = "bb8773584fca6724e2d02b4940dc587f7f8de0377d32e6497be1e4c86937277b"
+hash = "fff35635b53e1cd8ec3a05ab6004891f91622e9e14b01a3c8e560093a9ebe662"
 
 [[files]]
 file = "config/fancymenu/customization/loading.txt"
@@ -174,11 +186,11 @@ hash = "66bca164d20bff90ac6f40c419a1658d0004ebcc0d87e4d39a371bb094a6b69d"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "2a2b62277ef3be061b19f83c17005f96bd5b18ebb650b5a44edc4118c5e2d78a"
+hash = "70bbd697f07a41c309f4c09224ee11a3d458ad8592efc5a24c986b6a1d5e657f"
 
 [[files]]
 file = "config/fancymenu/customization/personalassembler.txt"
-hash = "f6e8074edfc826c4f8fcc2f2d6ed5c546b5e75409cc8b9dbc234024e371208f2"
+hash = "71a31f568835513f70bcfa62b60b13af60535cd3536df314eb5befec56423381"
 
 [[files]]
 file = "config/fancymenu/customization/q.txt"
@@ -193,16 +205,20 @@ file = "config/fancymenu/customization/removecuriosui.txt"
 hash = "33fbe1476dfb34ab26e73bfda6b5475ef2550f67d3134809bb73f73181086a4b"
 
 [[files]]
+file = "config/fancymenu/customization/tabs-backpack.txt"
+hash = "7ea7f72a61467c96af13d0b0a2c83de832aadf07dc6d166f9dcc865faff7586d"
+
+[[files]]
 file = "config/fancymenu/customization/tabs-for-assembler.txt"
-hash = "1575d6bb9b5807d4859a44ae9f2a2a2d6b99d06dc2cd93fdf4a6a812debcc733"
+hash = "4bfb2c4e75b2cc2f97c218d080afb1be31fddf5511358205aeb7eb7ddc920709"
 
 [[files]]
 file = "config/fancymenu/customization/tabs.txt"
-hash = "739d4fb7176434d66cfaef411cc793d801b4d14b15fda5e7872496288ee080cb"
+hash = "90639301cf65a390ca5d5d32780f0489ad0e54f02b9e2dedce267ffb1f5edef8"
 
 [[files]]
 file = "config/fancymenu/customization/toggleinfo.txt"
-hash = "3d7cc45e93297a1774f0010a54a21d81e825685659be384ccd8d44daf2e67809"
+hash = "2bf625734b6bc6beb961cb5356b89eb6ae3d98c35e7a19fbd901cda35f03c98e"
 
 [[files]]
 file = "config/fancymenu/customization/updates.txt"
@@ -290,7 +306,7 @@ hash = "1d00dc6e695663622b7b669f5d86322d57f8e66b8821b47ecb0156c0118faab1"
 
 [[files]]
 file = "config/hudcompass-client.toml"
-hash = "e617f5b53ee03bd3198d4fc109a11fd88469ac0bf0464b16977348c8fc8aeb42"
+hash = "a2c8f5011eecd92f231686d70b2ea9a502433ce29bb58fe2663c4a5326ac0728"
 
 [[files]]
 file = "config/hudcompass-common.toml"
@@ -310,11 +326,11 @@ hash = "82a022760c1ca91894bc3b1184664cf65e16ba39dc17a4aa2fc482c4fe4df581"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "5b9d1ce825ad58747f7e9bf256c0271c34daaf5fc1dcffd8e429856c8cc1ad14"
+hash = "0fdd1520c06852b74305923fdf691f815278da155b5b03fa2aea4d8501d0b170"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "1830cb0ebce1cded8d8768640a427f0c28a02ad53c7b740f0874a41ff517d931"
+hash = "a71dbc9bd468a18e61aaa7c8ca007e4c903ee00723b51bfebee512ae9bbc98f8"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -354,7 +370,7 @@ hash = "564267104c1040754cde7577629df46ec42107aa33e3efc412f280b5a18c8336"
 
 [[files]]
 file = "config/modpack-update-checker/config.json"
-hash = "e821c734053f1c866a03edb23f8dfbe41e58f4be8b5bbc75e5061772620b10d5"
+hash = "78e8f6fe156f48afec46718407c22ce3a07ac741cffea71c57e66419dbd8cca1"
 
 [[files]]
 file = "config/more_babies-common.toml"
@@ -390,7 +406,7 @@ hash = "2284eceb3082e36d33f714f4d45a21806e4dca10cc0d415136e860cbe96caf4f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fd03eacd7521895d19dc51ad6daa4c113897eaf44e5ed8fa5d45c9558471d1dc"
+hash = "0da3206e92ea56a570db56a39096f71f31bc91086243943e9e2ebf78c159bb16"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -506,7 +522,7 @@ hash = "b9ac1569794599fc328472b510c0d3814a1e496375c49003cea22a98c915180d"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "e67b5c8fdc19f0a29627a14095dfa6a8783fbad6a57f17a6cd34c0da5047f5d2"
+hash = "7b93db538a54c55f67a6e2947cd26aed58893b123573bf2385be2dc83c03d114"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -597,6 +613,10 @@ file = "icon_16.png"
 hash = "1e7b959266ecfa6e8a34e8e39212281e312d3eca82b1687cdb0c06278b2f1f10"
 
 [[files]]
+file = "infographic.png"
+hash = "a8ed181ae56175f991883cdb72edcf17218811423a9f5e90cd59cf992d6ffbb6"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -634,7 +654,15 @@ hash = "6952507cae4c5ca12ed20bcb40b4814f03c91598b22b838836b98bdbc8045631"
 
 [[files]]
 file = "kubejs/assets/botania/lang/en_us.json"
-hash = "b89be71be80272aaa02dadfbe591f510084e6bd685da99a70ee68638a159d9ed"
+hash = "3afd6f9ec3f6e6abff0515e67f62a67beec070ecb5c580ed40a287e3a4cd089e"
+
+[[files]]
+file = "kubejs/assets/botania/models/block/crafty_crate.json"
+hash = "dde3403e76bc4a37524666a8fb654a43faf7d6538d4be613413b42b3c6099da2"
+
+[[files]]
+file = "kubejs/assets/botania/models/block/open_crate.json"
+hash = "da2b9bfa91a6c03bc20efb5c3f10ad510810d26b1cf331610dd25eb71c8730e2"
 
 [[files]]
 file = "kubejs/assets/botania/textures/block/clayconia.png"
@@ -653,6 +681,30 @@ file = "kubejs/assets/botania/textures/block/clayconia_chibi.xcf"
 hash = "b99154eee7b1ba79012dbab0665aab75a3441a09b5f894d22f6f12d6c2e728f1"
 
 [[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate.png"
+hash = "b12e016dad990336102ca96e98a084c12ef84a2a4ebfe2016e7d011fb648c9a7"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate_bottom.png"
+hash = "d09f31ac0eb5d88b67ca9b10f955c9b20799534a485aae54037c82960730d256"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/crafty_crate_top.png"
+hash = "c0b1bc2958dc6c664e62f675c46e27650a400347c8812793163ecd10cfbaa0d2"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate.png"
+hash = "ee75c4a5834922cc9fee649bb432efe89afb2e4badec2bea9606995829103fcb"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate_bottom.png"
+hash = "b3d43e0edd82d33c167f67744fb18ab7b80dc051f521ed855a0c75ac6e8acaf6"
+
+[[files]]
+file = "kubejs/assets/botania/textures/block/open_crate_top.png"
+hash = "70f8ff901b28a894ab3aa415bb01c25cdd0a3b3ad44abc6f9766937d9739b9e7"
+
+[[files]]
 file = "kubejs/assets/botania/textures/item/manasteel_disk.png"
 hash = "deff26969724251fe143ff01eee602514a8b96b062ab95749bf9563cd1d50e1e"
 
@@ -663,6 +715,10 @@ hash = "74e0e2896f14956524846be8fbb21bae8d82787a3be4b5ed664dcfeb80cdb12a"
 [[files]]
 file = "kubejs/assets/botania/textures/item/manasteel_plate.png"
 hash = "3bf4d2026fc1ca0f7f61fa34d336878657e5d976a1d3a4f26ebb14a91d4e4fa2"
+
+[[files]]
+file = "kubejs/assets/botania/textures/item/placeholder.png"
+hash = "ec960aa845e224c71e8ed13ee1727e5a89ad77c33c5fae06895c0a721b48d1ce"
 
 [[files]]
 file = "kubejs/assets/botania/textures/item/raw_manasteel.png"
@@ -702,7 +758,7 @@ hash = "3b295c4a6e178d74e705e1531277bc5d7f1616ae77002ebec35cf6ee34676e42"
 
 [[files]]
 file = "kubejs/assets/create/lang/en_us.json"
-hash = "7a75a0c1d63e3ae3c4e7dae107fef698f0b699ee78e7e62b14f4cc748d00f73d"
+hash = "6f9190a4c6914c1f01376623d44ba5eabb1d5e6f1a717ac378f1992865dee185"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/brass_diode_base.png"
@@ -754,19 +810,35 @@ hash = "d7ca2e67e9917f761aa7181123ea58065832b262b692499ddd2ae51483d31211"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/category_order.json"
-hash = "c64437ca80f57b1782eea5e8037d81e1148b8c14c6446be5dbea8fae6e6d96c7"
+hash = "e05a05501a34dc5b71e980c8b5562f82b5c88aecbb51ea4d3e10d152d75992db"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/added_agreements.json"
-hash = "eed1698bae89280e2daa2a2060f24961ef0b60f7752f08d02b76daa024658910"
+hash = "def72ca26e3b970e6621e2844ab4f721887d59ef2750eadf309d999659337e51"
 
 [[files]]
 file = "kubejs/assets/emi/lang/en_us.json"
 hash = "eb1e2c1296602718766e8b1ad2288448166882a462f09381a71af14899a10f7a"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.black_smart_cable.json"
+hash = "6da3e05920b61e8d97e238c3e08312a045d93cc6e207a3bea6656e0f5e546643"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.blue_smart_cable.json"
+hash = "40fe7db7f9d52ca9ea3b118d7fd3d84a69054162da25d491f7d2d4c4103eef0f"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.brown_smart_cable.json"
+hash = "4963dd8fd2f36c4e550ec2cf6053cce75bb3431b30f1c731b68bcac276fe82d5"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.chipped_budding_quartz.json"
 hash = "3b6ae09febc9c81d562d53047e61410eed228f02668a1f78f0d7f552a83c3042"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.cyan_smart_cable.json"
+hash = "07dd676aff4d088a5fd58bfa520a78e019b1bbc226d60dd75893ceb160d259a7"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.damaged_budding_quartz.json"
@@ -785,6 +857,14 @@ file = "kubejs/assets/emi/recipe/additions/generated.ae2.fluix_smart_cable.json"
 hash = "3ab1eeab89607d25f3908c2c7a77306507131e047463350004cf1bdb9d268164"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.gray_smart_cable.json"
+hash = "64324e681cf4a6157516eca2a52bc575653e88431d9ef7c8b870cb6bee878a8a"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.green_smart_cable.json"
+hash = "535427ca57f3c796ffb076ef2981a60a99bc51c076ed2850de392e5b256bc038"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.inverted_toggle_bus.json"
 hash = "21a3c95c1de0fa0e1467f1d5f7f6b2ab1274c9807402ba770419c005481c78a3"
 
@@ -793,8 +873,40 @@ file = "kubejs/assets/emi/recipe/additions/generated.ae2.large_quartz_bud.json"
 hash = "1ccb8c93a5426221441e4167ead0f2cc1e3bc24c3085dec0d1e79b3139ba1922"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.light_blue_smart_cable.json"
+hash = "179f10515242ae235cc59797e6b084750622f8c36f1c43d35d7fe6faa349ff40"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.light_gray_smart_cable.json"
+hash = "93b23a5a21ff7a5db3a0b726bb5926fbc7bf53ed72a765710c5de6a15cff81d5"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.lime_smart_cable.json"
+hash = "1ec87a613f8bf2f8c4e8fa2b633a7d352228b65d0b6a4930dbc10b6568a83752"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.magenta_smart_cable.json"
+hash = "7e7cec7346535a55ceb4c4341ec97a489d7897f8249417294509da71cb3e7171"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.medium_quartz_bud.json"
 hash = "098f82669a9d107cb691fc104ecea208c8d46ee887513f2acf220a3f9649fea8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.orange_smart_cable.json"
+hash = "24464cea23e5aca097034453a0fbeeda8308a11ac6c7315c9273789b4e68cd5b"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.pink_smart_cable.json"
+hash = "598f8b1463616e033f38ed2b7360d0f29e8c53489949c51f43e2fdbc751c59f8"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.purple_smart_cable.json"
+hash = "f9e5ed1abe51b8a8bed3bc1a66aca8e597a4e5386d08a1b7146744b8400542b4"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.red_smart_cable.json"
+hash = "c5dc449fa19b900b55bcb2e354e5603e94bba17318951cc1c028d79e0b95d892"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.small_quartz_bud.json"
@@ -811,6 +923,14 @@ hash = "c23ced670d79e2cacbebbe05f8ab9b9a08f2b6279be8772256f7026ec04b1117"
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ae2.toggle_bus.json"
 hash = "423f2a57108106408705a6aea85534a4463b4d2f62115ded4ad74ff9607a7243"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.white_smart_cable.json"
+hash = "1863adcc342b9deedae1442bd371299b62d90e1f755f66f4cdcfb1f1fff73ec2"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ae2.yellow_smart_cable.json"
+hash = "78e214d7d423d196565ba092d29043b8e955fcb1130b81cc1f7f73e4692ac218"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.botania.agricarnation.json"
@@ -2105,6 +2225,10 @@ file = "kubejs/assets/emi/recipe/additions/generated.minecraft.diamond_shovel.js
 hash = "767870e42460c157039b54d484e9a9efedcfbd4870e6da61fba0d451baaf8a76"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.minecraft.egg.json"
+hash = "293f7694c3c47bfc2e9d323f92aee2b908a8097772dd5fcf5c3cac691d0672c8"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.minecraft.golden_axe.json"
 hash = "c39e414656ea7b6c109c0ea5e5d437f4fae21a4f0a89c70e93072b64494e7a86"
 
@@ -2241,6 +2365,10 @@ file = "kubejs/assets/emi/recipe/additions/generated.ptdye.mechanical_device.jso
 hash = "fe1607744f2acbd04c6a17f48b3002c6053602e7bb84fcb0fb23c37c2371b81a"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/generated.ptdye.ponder_automaton.json"
+hash = "3718c22f7919a4f18004d0f4d023e535fffc001823ace52f15bd72b854538cbc"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/generated.ptdye.sealed_device.json"
 hash = "455ed439acabcdd060c0a906894d8a615072a600eed0f5c3175f5eedb4e1fc55"
 
@@ -2290,11 +2418,11 @@ hash = "42e08b47c2fbc9c2c3e7186f8875b53da5ec2b1b9a0bb9ce0fb1e86e3a5f8357"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_crafting.json"
-hash = "d91d3a9f5ba3002642810ed7c6f57e1f687480ad4f78843fae21ec040e3e3fc4"
+hash = "87292387361181fc8970607e54c3b320ff4f49b03f37ed64d671a7fedf3e6476"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_hidden_recipes.json"
-hash = "170cd45bcf687efc201a00c1cc7dd4f2c01fa6894785f09133180b181b4e7aa4"
+hash = "30da19ed62ff1e43937b1af75f21937bc79d74e1a1df6ee9534406dc3ff622bf"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/gui/inventory_mockup.aseprite"
@@ -2334,7 +2462,7 @@ hash = "e336952a4e453ff6e74f64c5e7e3d5ffd00b6247eaea357c5e051bd307d0a28e"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "051982a5eb5dcd50f9cb549b119b027f4f0244627bfe79e45fec86be25e39bf9"
+hash = "7e9bd05696778c6edab175aea53a4d17f65eb7c65246d8a92d70a3b23fea16c0"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/bee_nest_filled_1.json"
@@ -2386,11 +2514,11 @@ hash = "12e50246ff3b1260c2bb1f33497480a257861c580cc826d1e8944cedfec9f9d2"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/hopper.json"
-hash = "61115654e239c7223174cf799ef948d7c67b3953ceded236b1405f6bf47257a8"
+hash = "25f2127880d2b71d2a64ce62bbd6b7090125c2375ac592b72560289e7452cc2b"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/hopper_side.json"
-hash = "fcf10d12ebf3f769e668f5dad23e25397e1366afbf69ac13b33c1e2a67ac5589"
+hash = "72a47d9e0f66b2ed624247c00ae80467182e73a2a3ae6382dd685460afc8e497"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/iron_block.json"
@@ -2633,12 +2761,28 @@ file = "kubejs/assets/minecraft/textures/block/dispenser_top.png"
 hash = "a43430ab074cefad407811d7b85c429f81a742081d1126346be4d129a492e9ef"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_down.png"
+hash = "d2f2c68f9c12f3bfef5dbad4a42843886d5906b46cc4493a151b96b3b580076e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_inside.png"
+hash = "9372e4de1648ed0ea4db99b217d4f21afd0865cb36f3b031aa62dbb064eeb4db"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/block/hopper_inside_arrow.png"
 hash = "7628a957fb7680e82b8ab74c72b3e7fb759d0e84fdcd5d2c4d3c7aa39f032bb7"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_outside.png"
+hash = "8a1aa54b14d84732698b7cbacf707b02416874fa047c360c9b23b8db9971f718"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/block/hopper_outside_arrow.png"
 hash = "8d7549c7ad544add640352f93ccc2ed8ba00d3bd273c64f45b285fed2c340c07"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/hopper_outside_downarrow.png"
+hash = "cfac1dfbe6b3cd39409be62e7cf422fa558969041afe247d411700ce174e575a"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/iron_block.png"
@@ -2870,11 +3014,19 @@ hash = "1aa2f733711cd09d655026a238ebd359e7694091bedd0c2a2c47ce395b99d7e4"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "fd975da3c74b1548531e98dd265d0e00e08d7571978cc9e0d24ad49f06832c78"
+hash = "fe70c9a6604fb977b5bfc3baee71644fa48b96b7b07ebdbe096672ec716abc0f"
+
+[[files]]
+file = "kubejs/assets/ptdye/blockstates/botanic_device.json"
+hash = "7502b3535f8010c81781cbe80b92a6408598d83f88eb50089c68495a275a404b"
 
 [[files]]
 file = "kubejs/assets/ptdye/lang/en_us.json"
-hash = "8eb9348f43c9de347c116ab99d11f0376925d3e0f14c4ee3ebe9c929b31f5513"
+hash = "251a48dd105be2aeea6c4532568fc58bbf8adb6c98164e4164720fb3d5896b43"
+
+[[files]]
+file = "kubejs/assets/ptdye/models/block/botanic_device.json"
+hash = "2871288050ca08ea42d48e354150fdb250b01465a4da8aa251e2adfbfd045733"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/frail_bone_block.json"
@@ -2898,7 +3050,7 @@ hash = "e4aa5d83ec26a22ff3546de11a3abeddd961fcbd08b0eb0df79bdda566c5ef19"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/orange_tube_block.json"
-hash = "8613842a72984a0b2e0a5d5e482cf20a7813b46cdb6c328cd76433716fc7705e"
+hash = "ef465e63aa793b12c56228434a64dd67e6f9f74403fd0d7510eab3cf89f55439"
 
 [[files]]
 file = "kubejs/assets/ptdye/models/block/red_stringed_device.json"
@@ -2979,6 +3131,14 @@ hash = "c85d66dbff1668f9aee29e4c76b4a4608948d65246f1fc422d24bad92c9ece2e"
 [[files]]
 file = "kubejs/assets/ptdye/sounds/trading_platform_request.ogg"
 hash = "40ad902d06b1befdc4deafbce02a1f23d4a9daecdc61a47481248f253196929f"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/botanic_device.png"
+hash = "e562e61eced2c1df872e3f7dd45f97dd83fb039b0ff0d5e437b76255dea0db8f"
+
+[[files]]
+file = "kubejs/assets/ptdye/textures/block/botanic_device_core.png"
+hash = "8d8402a9620d64e0668b7de37cd237097acba2ec2cb7dec138ffa6b1ef3eaa33"
 
 [[files]]
 file = "kubejs/assets/ptdye/textures/block/cobblestone_casing.png"
@@ -3209,12 +3369,16 @@ file = "kubejs/assets/quark/textures/block/raw_iron_bricks.xcf"
 hash = "c9e4160689e11c5d7d21e838fd7ae7738100d361cfbddc546d47a3322c52b71d"
 
 [[files]]
+file = "kubejs/assets/quark/textures/misc/backpack_gui.png"
+hash = "7ae10dc99122689baaa87a369e00540d434554c5a49441f3f0ab05f799a4d5f3"
+
+[[files]]
 file = "kubejs/assets/railways/en_us.json"
 hash = "ded1b3b51c1b47ee3e812ef73dfb4dd423dec7119ed921585bed038c95328c0d"
 
 [[files]]
 file = "kubejs/assets/sdrp/lang/en_us.json"
-hash = "4a819800e72f5df8793a9528950ea8c0f69a9f484613038ecff20055c0d4c2fb"
+hash = "574cefa06e9721c425c01d2e8dad5f1ab5cf08804eb57e0c841beb313ef1a0c9"
 
 [[files]]
 file = "kubejs/assets/storagedrawers/lang/en_us.json"
@@ -3417,16 +3581,24 @@ file = "kubejs/client_scripts/customPonderIndexButton.js"
 hash = "399fb8c375bf97feed672c191713572511824fe0ba9a4cbadbedd7cab2dfcdda"
 
 [[files]]
-file = "kubejs/client_scripts/diamondToolsSilkTouch.js"
-hash = "9b8a55311660b15007b9c8802cf54ff3c3b5d9ac1b4684e7c79356a0ebea2f9e"
-
-[[files]]
 file = "kubejs/client_scripts/documentation.js.d"
 hash = "91edff4cb3c64a323838fe07b75821c153ef71ca52c27cdf4cb233c3961d8509"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "2fcab4d130077b073f20d59db438be312b49eb3ac758c8c1ab5904940455b93a"
+
+[[files]]
+file = "kubejs/client_scripts/features.js"
+hash = "5b820d70e90bc5745e802a3598e98d458b78d3dae9aa0d7fd135cd9831c77c16"
+
+[[files]]
+file = "kubejs/client_scripts/foodTooltips.js"
+hash = "a55d7d33fc9109e0f6b5717454ed65633e97f8c46a55eda9a49bee1d6ffc4236"
+
+[[files]]
+file = "kubejs/client_scripts/globals.js"
+hash = "2c36187c0fec1ea0f5bdab5f8960f057ac86ce7789c3551682fc02923ac945b7"
 
 [[files]]
 file = "kubejs/client_scripts/handInteractions.js"
@@ -3457,28 +3629,56 @@ file = "kubejs/client_scripts/noWaterCheat.js"
 hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
-file = "kubejs/client_scripts/ponders/introponder.js"
-hash = "b74f5c870688b5def9d25ad2f3f31d2bc6359cfc75c83d12f092898d62a75585"
+file = "kubejs/client_scripts/ponders/introduction/automaton.js"
+hash = "1686d95214f70de0b004226dc40dc1feed352ec56354813c334ebc7ced7fdded"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/introduction/tag.js"
+hash = "cdc504dde2d0317f53dcb5e518dc9a6902b25808ea3ef064a87c74c9244e9fad"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/introponder.js.old"
+hash = "fb0014db63d8892d6b67ccf1a6711dba02c9e0a9585d1fafe36b27c527440adc"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/stonecobblegen.js"
+hash = "605a31fe7a428db66a65328394673d38feb712ac62654efe384b5457196d558a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ae2.js"
-hash = "44de23b62a71a385c1c83b065049c78d40250954a0fe5245c6251a27652a27d6"
+hash = "6c89b7e38e26e05689685dbfb61070338b8f58f6a534d906d1b72baac374f0b4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/botaniaDebookified.js"
 hash = "809ece56a6c0254c28d30e83e35af612f4092f1711626f901d7d3e3d9a9a2cb2"
 
 [[files]]
+file = "kubejs/client_scripts/tooltips/burnTimeTooltips.js"
+hash = "f9dc01d474f56d3a6cc9a06e88edcb102f654a14becf241c660d8d350787eab1"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips/categoryTooltips.js"
+hash = "9e7176952c0cbcf1dd5a8578963eff9d96973fec0696b2ec59b55b7668ab315a"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips/critical.js"
-hash = "e6afb51fb0251a5b28e4b2c592a770b9f77c0791cf7fafe0a10a3e01b1ca2934"
+hash = "383ca8511ca368c80d3eae7633efff5e3696677529d9dfd7f2b9058f02f5f29c"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/devices.js"
 hash = "763de94078a4c9043f02538a68b64b50d4cd58fe5ea0a3d869ae7a67b40b6f42"
 
 [[files]]
+file = "kubejs/client_scripts/tooltips/diamondToolsSilkTouchTooltip.js"
+hash = "9b8a55311660b15007b9c8802cf54ff3c3b5d9ac1b4684e7c79356a0ebea2f9e"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips/disabledItemsTooltips.js"
+hash = "421b66674c04185f86c2be250a0740fc74f3273b0ad4152c720494e40c744f54"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips/dyeing.js"
-hash = "16347a3fe11968cb41dabac92620007f4424c55090721cca2c2545dc8fe3c74b"
+hash = "e03c209788f2937c19c39b89c45af192b02d8522750378900be3bf48763181d5"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips/ptdye.js"
@@ -3821,12 +4021,24 @@ file = "kubejs/data/botania/advancements/main/tiny_potato_pet.json"
 hash = "f973935ca73df92ed6bada5548e4eaff59c57ba8149f31ca2b6a78b36cdcbc55"
 
 [[files]]
+file = "kubejs/data/botania/loot_tables/inject/simple_dungeon.json"
+hash = "46398a6c6f080889b2d677f4e34ccd32e3adc1d7bbf826bb3497dc80a0070124"
+
+[[files]]
 file = "kubejs/data/botania/orechid_ore_weights/orechid.json"
 hash = "e27765753567bf29eacb96d1339b0ee9db7ff12ed58d1a9a094d4ed9e901ec50"
 
 [[files]]
 file = "kubejs/data/botania/orechid_ore_weights/orechid_ignem.json"
 hash = "ca2d5d08632e85b6cab5279889d30969aa1979e6c8e19f7917770b4131988425"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/biodiesel.json"
+hash = "a92f5f87b07ef9bb702a4705b723336628b81922ed118ebefa2ed81aab0b29b4"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/diesel.json"
+hash = "81043a913dd738d1d688d524d237f2d6dd26f25cef57399a3654cc7ac2544fb2"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/ethanol.json"
@@ -3977,6 +4189,10 @@ file = "kubejs/data/more_babies/advancements/more_babies/root.json"
 hash = "29170f636decef1a097a0163669a18a7a9971246217eee9df102a11d66b56d6f"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/_toolbox.json"
+hash = "60223e51a80611d075eef7d2b94b76262ef125e5e88fac763001dd9df5f305bd"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/blob.json"
 hash = "b773b582ce52af428f0c8a2a0f925f2658ce97f1b345cddf95bca6d98ef0db75"
 
@@ -3985,32 +4201,76 @@ file = "kubejs/data/ptd/advancements/bread.json"
 hash = "18805a5779090e8f0d4c2e2bc7862fe9b99dfe08fdb9c3760d21235d7680f399"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/cake.json"
+hash = "b63be512970a6a80fdbb89eb6d18f7ba1fd267056d7daef8cafb2f86b0b292e1"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/cogs.json"
 hash = "e04ec5411bd7345cb2ce8a81b310d29cce7f9ea2953ea14979baba7d110aea15"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/daisy.json"
-hash = "013cb80a1f9983e99a6f7a91cca333d0467eb7857058c8955a03af83486613ef"
+hash = "a6e666dae748c38b9f98d17eec639d7b923ad25ed6775ab7767662f71b4be40d"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/furnished_device.json"
+hash = "2a9a0f49b2f7ca3060af4cea7ebfaaf08dcac2b2165810577fffbde6db25ceb7"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/goop.json"
+hash = "35fcea26c3f45a553d648473389face426149d1bbfd01b1a140a833972275e64"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/grass_block.json"
 hash = "703a277a9c282c6ee6325ab95519a31126d5c5cdd2599d7f5fc7e65273cc61a5"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/gray_alloy.json"
+hash = "16dab0de7b1f9e0829ae0e8218adf366005dd248c810f18cdeba4a9fe52c50cf"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/locomotive_device.json"
+hash = "5cb202a40b467653132fe7c1e25b71e14f38add788563d60f6910e79d4a5cd31"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/logic_device.json"
+hash = "3f25c157c76982f9eb2bc9e71f545a2800bb21e149b35b35cbef954ea7c1cd85"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/logs.json"
 hash = "996e72649a59a11750978d9b84a34dc8d372c6fca89ef8455b5fe586847ce6db"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/mechanical_device.json"
+hash = "5b0933ab072d63ce00656c1bd5f220ea986e462dee7e3c02fac734029a4ce4e4"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/milk.json"
-hash = "a5510ece98c1fd136c1a927e8fdd8f78c34cc851d13678cca4bf8e4f51dfc518"
+hash = "b4c6fe433e297b483ec6e6cd930eaf24ad718a45cf3032a43d67069b845a5b52"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/raw_white.json"
 hash = "90a6642617a9e8737a16b9cca5f5979fcd3d8db19358b3e0375d5996b5fa0108"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/red_stringed_device.json"
+hash = "52bc0b2b93578ade15627d99e7ee18b9d3b5bf2571b1ee51b755f2b5ff213683"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/redstone.json"
+hash = "3e9c88b15b4872e143b5f6d1a29da572cdbe9997a792d7450554f7096e197759"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/root.json"
 hash = "4a0d5e3362742a680303c1983b6f16a431a619e09474bdc4206ebcfa109a8814"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/sealed_device.json"
+hash = "6c9c0b6cffe0d19379b0c71d9f793ff920b7eb04c7e725cecef5538443aac056"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/smart_device.json"
+hash = "90f00a85c6e58c0941929af563affb98d030f4b0f0c564da4e23163db56949f0"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/soap.json"
@@ -4018,11 +4278,11 @@ hash = "d40307643533a8a38cea0cc9c0c170a5b5f6ef9d33d3f7662de22cda413afa8a"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/sturdy_device.json"
-hash = "380134acfe959375e9490999457bdb976641fc1c6901a87f4118b193f3409f7d"
+hash = "6cdad29dae3d48305a08cdcf8f598c4b69fef430ea32cf8f37b3607ca9f7ff61"
 
 [[files]]
-file = "kubejs/data/ptd/advancements/toolbox.json"
-hash = "60223e51a80611d075eef7d2b94b76262ef125e5e88fac763001dd9df5f305bd"
+file = "kubejs/data/ptd/advancements/trade/adaptingtaste.json"
+hash = "41b1e446c179b6cb6fcaa3b098f25ec61a7c49711684b8f76611c55c2b315b1f"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/bcfplates.json"
@@ -4043,6 +4303,62 @@ hash = "cbe24dffc66ab1f04ea2a671f674aaf1e7ec536f0fc5d0b63f7f4f60aec3e52e"
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/bfcplatespermanent.json"
 hash = "75db9c4e7608f3455763c243b7b436139e5ca35548f4be575c924dcc72d42308"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsiadaptingtaste2.json"
+hash = "343e9ac5a89a2d43a313eb89a5f2abbfb17ebfe04f81a914c92023d785c064e7"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsiadaptingtastefixed.json"
+hash = "ea440e738b91e79e428fb954c88c716fd7a2aefcf958bd97217ff1cabe3b82ca"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsichickeninvadors.json"
+hash = "b44aaf0effabc76b996354e6ec534a064e777d6abc61d651df2fae254d495c99"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsichickeninvadorsfixedrates.json"
+hash = "46abaa08673868de8c05fec5a8c874bcdca723081dc3462dce2c775811b74183"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsifeedthecrew.json"
+hash = "6038bfdb2eb52effe03a86f45abfd8711006e00ab35cb08fb7d53439daad8eb7"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsikillwill.json"
+hash = "5111e4462a410897e2e4e16227d401cde8140d8428d536c40a72a2ebec947532"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsikillwillact2.json"
+hash = "8394540709d56fa531414dccc83040228f40b3c520c5ba631ce2275f39ffe6e3"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsipigs.json"
+hash = "e4980c0fa5613dacd4c64b352184228dece3ce31bf69f776eec72e0ca75ebdca"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsishowerupgrades.json"
+hash = "ce07dbe4860a03aba55db6a06e509983f7252c9a5c25f02329747a754bf250f2"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsisoap.json"
+hash = "f7dd3c378fc1f94d1041e5e6e6471d7d4227024b4239f05ce6173c76b10fc20c"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsisoapfixed.json"
+hash = "9f92debf5bd8e6980d152c93bc75bf499becafdea142f5039a86ce6a35aa390c"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsiwastelandclearance.json"
+hash = "183c1de4f560302783e0dc13fe44e69800845f4e41dade45b05e3d9235a40e2e"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsizombies.json"
+hash = "c854dba740fe33069b03cf589b26bf648184c734646062491346b6eece5a6683"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/bfsizombiesfixedrates.json"
+hash = "a86af3070a557dfac87c8cdd6a6a62c4475b449c57bcf6d3f902e4df8bf0eb64"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/bhbcheese.json"
@@ -4077,6 +4393,10 @@ file = "kubejs/data/ptd/advancements/trade/bnwmanasteelfixedrates.json"
 hash = "b2d3974c059be046748f7b3b1f57edd7ac23d2efde219537895eca583a6c9010"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/bnwmanasteelfixedrates2.json"
+hash = "98386a07e904530f5184bab30ed904f9eb1700c5d0a0910f96d643c92e94d9c3"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/bnwpolishedrosequartz.json"
 hash = "5daa136794d682cfa21b9bd1fc95754466c14ffa04cac54d113fb4d2931020b7"
 
@@ -4101,8 +4421,84 @@ file = "kubejs/data/ptd/advancements/trade/cccrawwhite.json"
 hash = "1c4a53803963a5374fbe7cbb509992e876fd696e8982c10b95a776525343b80d"
 
 [[files]]
-file = "kubejs/data/ptd/advancements/trade/cccrawwhiteold.json"
-hash = "1bc9e119973e4cf618be7823ab608152acfa5c5c5539ed6bd1339f863243419e"
+file = "kubejs/data/ptd/advancements/trade/ddddungeon.json"
+hash = "6ec1cc0da7f41039caec697fce44330a20fa71b8f4abba130da7bb8a4ac73152"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/ddddungeon2.json"
+hash = "8530bf2ae5fbbea3b00a20d910291c445e44118803332dfe2ac5ba1d9b582dba"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/ddddungeonfixed.json"
+hash = "0e8d122b5ca6b46bb729dc9127487d4f4572a6071f4f4b4e417cd28246f793a7"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/dddexploringancientruins.json"
+hash = "a0320cadfa21200c349c99e3402a7e662bb3bab1c2616ebbc4b58ba804cc6112"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/dddnecromancer.json"
+hash = "e4a40298e53910020034cad4a6b3292acd799b860b335ba3e83fd5bb020cb1e6"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/dddnecromancerisprincess.json"
+hash = "295b8c1815747485ce45cba06ba32e9b70829a87d6f08d4079b33114b81606a6"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/dddnether.json"
+hash = "32cb68f143cd58f6fe387f1e43834c57f65cca07255cc860f4811217d47760db"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/dddnetherblazefixed.json"
+hash = "e7ebdaa0c82c21b77b60b759532e3cf1e98b45bd52ffe7ce6fe04b61e7e448af"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgcaveexploration.json"
+hash = "f1b476911dbc3176d5ae0517bcd9c0af3608460ad1214e24a8cd32ed23ed4042"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdeepdiveoperation.json"
+hash = "5f84f8865fb04d2a414b7b0df2af5b216917cb716b15f301a4ae164d87d200ff"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdeepdiversuccess.json"
+hash = "55af092ffe71a98a830c0638f212b3b8135c2e6c5aec190bd467ed7cb7c97d98"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdrinks.json"
+hash = "ef84620de028594821cb6f03fd4fea1b42c5b29d729fc0608cc8fd6d420746e9"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgdrinksfixed.json"
+hash = "08c980f91c7eea0fb676c5adeae4442a8a857fe92d6105a800bfbd9d6b0f3056"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgevenbetterpickaxesfixed.json"
+hash = "4e2c6bbb990a055a471880bcd8dd540a3d1704c11233f79fcbbd076de5493fec"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drggoodpickaxes.json"
+hash = "9a13a943aa05f4a6c77e2f87d6b4d86ee9f99477b38348ab580c2bc2d6fe4ede"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drginitialminingoperations.json"
+hash = "a15030875183dcbc07233a033034e117f8bc05ce03bdba3f78140b21481c5591"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgpickaxes.json"
+hash = "f78cf8ea0176c791b8954f9e08362bfd35047fe09ff12cddaa568b83aa0bd776"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgrescuefromdeepdive.json"
+hash = "8b619aa06b75d80658c5345b8797faa441714a361f610e2403bacdca51cfec1b"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgspecialdrinks.json"
+hash = "ac57e6d488e5cf6a37a7dc52981615980670a7802d9b8572c60aeea4d0e87735"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/drgspecialdrinksfixed.json"
+hash = "32e406c337af57956afc976fcba5c2e78a9e9c1ace329b7754aa28c14b6505f7"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/gbdsticks.json"
@@ -4115,6 +4511,34 @@ hash = "6d5c9a722396e27e1a55b5d4cb51fb18513e2e1f521b49ed81c95b44aecf5641"
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/gdbleadfriend.json"
 hash = "7ebede0e9a0dcb7b611a5f74823792c475365377fa557183254485ad22b717df"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsfboats.json"
+hash = "69d78f700b8564c483d1ef8cab2c8e1e72e39d43851b16becf7e62daab050b42"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsfenchantedfishingrods.json"
+hash = "2fcb8e593972e4fb34c5702f550ed41f8d9d8cc5a99793752db670d32b898082"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsffishingfixed.json"
+hash = "474f6e727d049922465d30a4c3c74af9d93329d9218e1de3acfd2d2716a542b3"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsffishingrods.json"
+hash = "d7bf9a7f1d022b254cfe1d6d4500e0b750d3b3a13f7596d3df9507156d85fa8f"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsfsquids.json"
+hash = "a7fff8211cc4b14121f565d196f74d44b609d6cf8d648d89cfc443ca2c06f4e0"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsfsquidsfixed.json"
+hash = "c3c83cddec3c6a4f5b1cde1ad360cd51ba16a539a346a11beb26bf9b4b8a386c"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/jsfwelcome.json"
+hash = "7dcbb8af1c5bf7bedb1b9b243bb2d0b0f6d3a34a0611b5ab0979697d3be863b8"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/mlcendstonefixed.json"
@@ -4133,12 +4557,104 @@ file = "kubejs/data/ptd/advancements/trade/mlcsandfixed.json"
 hash = "790c2de67558c24002d94fe66a470ee3dba6729dec7af12dbb48d41cb535ba7a"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/padventurersfoundme.json"
+hash = "73aaa43a5bbc70765e94dedd7b9d6915e27eb924361a90ea1bcb1b2ecc87329a"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/pagainstadventurers.json"
+hash = "a437f2b05d8cbc6efc3ebce3b6bd14f3b832bc38e7936ea77be9207a97d2d9f3"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/phoneyfixed.json"
+hash = "38e8aa62d29ddebd8a60abf79abce61dff97a33e495f6668082b8214f1da99cd"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/qubeangry.json"
 hash = "967344123573b92d39173cb046779529fd256defef11163301dbcb6299ad8166"
 
 [[files]]
+file = "kubejs/data/ptd/advancements/trade/qubebetterglass.json"
+hash = "7d69c95c332151f04fe3cb71a8d3713689d64f20bbe1e89c3660b08e4876fc1f"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubebetterglassfixed.json"
+hash = "774b4464ebd77ea830c0782bf5e58a96da8ac69c10811cb6408a51c01c8993cb"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubecontrollerrail.json"
+hash = "579da372c9a2e84690121e6753f99d0d2c590657f5379984b1ed5cb9022c1428"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubeglass.json"
+hash = "f910b6c161fbe649f373e3e7a7550ff88386fbbbf4e957474b58e45d7cae3ce0"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubelocomotivedevice.json"
+hash = "239cdd7f5222467c01f964cdbe2e1722558fbaff713a8130298231c03506513f"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubelogicdevice.json"
+hash = "94aeb67fba30960c44a4a295d194c5017a4facb1313db141562aa308215a0189"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubelogicdevice2.json"
+hash = "3bcefa03eeaf93644f7724c615bf5816d83f1a270fdc675a11348baaead640be"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/quberails.json"
+hash = "ff8db218ebf8f511ce51f5e9382b8b98c821ae3edc49f321629d37385e432989"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubesturdydevice.json"
+hash = "a70dbd7e021db78191e2555c58d2df6d417301110d8f0403b0d6045cac872012"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubetrack.json"
+hash = "5c7c0d8e41c2862f0a0b2352c5048af9a0675a6979047ac54ea545b6382cf755"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubetrackfixed.json"
+hash = "26334a93318f0fd1d7e307c2a5b1f51b337c97e465671a93327a24843ee64526"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubeweapons.json"
+hash = "e01c7525aa23428372a60e0ace9962f1edd2f48d8ffb49f8bab791d3372d109b"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubeweaponsenchanted.json"
+hash = "a6902e33c747ec2907484cc162568b72190a536bf2cd814235faef12463932db"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubewheat.json"
+hash = "572efc4c7a5fd0e31ead9e492d9bde31ffdec764abe9475d57b3ca8c1be7e3c8"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/qubewheatfixed.json"
+hash = "6e99c4da0d9e6794619e8a26780065c9912e836543501c9095422a9d11d45443"
+
+[[files]]
 file = "kubejs/data/ptd/advancements/trade/root.json"
 hash = "4440c193ccc488e3dc1b84cf51fb4d748c3ab0c3eec8c8975a0fe5549c38a8aa"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssarmor.json"
+hash = "f5ec325e058754641785a6597d18932d702f0f164107d18fb279e9125c2b371b"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssarrows.json"
+hash = "eb6aa5902136b54d0761e338d1b18cb7d3529862babb48e281117978446be9dc"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssassaultcontinues.json"
+hash = "b6a9ff3970e8f27835cb80c17ea17a09e88c5856a5f1b1a524f5fbdd7381c999"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssbows.json"
+hash = "e0aa48844b191e4e941d47cad20b114c35fd43c416840f61dc5a665c04fef9c4"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssfinalassault.json"
+hash = "8b969ede339f2548b9533c5d90f1ede736c3429cbd859e3442e3aeec330f5c95"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/ssshelmets.json"
@@ -4147,6 +4663,38 @@ hash = "7e518f57b40fbdb9d245d9b1a77c6916172f0a77d556299e2fa09b23c2ab1be9"
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/ssshelmetsfixedrates.json"
 hash = "036204b22cd64abcac070526b1ec903245c3d7bf45fd1d9fb64dadc660cef182"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/sssslavesale.json"
+hash = "57ab6c750a05ce7a459a78e4b304c3c370d3f985564f360808c99962f14a4364"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vattack.json"
+hash = "bc37005f990f02826763a489678c8470ed6546cf1795de7a6b88aee9c59153a8"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vempire.json"
+hash = "446986b35554d7da0574be986ffc5b03a449c284d7ba577915505a82e705101c"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vhelp.json"
+hash = "3d3db6463b390e8209184056da3be579cea6a2bd559c8041f35ed6f6e47a84ed"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vhelp2.json"
+hash = "a11a4677c4173162ee67b6fc352954c8b88d3827abd0530972ade44930ad3545"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vhelp3.json"
+hash = "663520ff7eebfd3bb3e98814540e4f5563bad3ee71df357faa9f119e575db15a"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vhelpwhilehelpingotherside.json"
+hash = "41f5bb95ea8d9b20b32b3df16fc5c4cbfff6203d455b6a0820d687b749ed2771"
+
+[[files]]
+file = "kubejs/data/ptd/advancements/trade/vproactive.json"
+hash = "0aa8f95b9720ad6d52e892ca8d7485a4ae54679bda666641b7f6bf583cd99cbb"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/trade/wscaxes.json"
@@ -4161,8 +4709,8 @@ file = "kubejs/data/ptd/advancements/trade/wscbreadandaxesfixed.json"
 hash = "6c9dd01564795b8c2e2d6583755276f44058ecec8f4462f1222bbfbc87318873"
 
 [[files]]
-file = "kubejs/data/ptd/advancements/white_ingot.json"
-hash = "f00304eaaf0f554257e9edf432980cd552e2cf37279cbe373a46adfafd83889a"
+file = "kubejs/data/ptd/advancements/trade_success.json"
+hash = "0365c5be3161bc58d8d2eafdc6529dd1858282d3fc9afe85f03b440e72d6c4a8"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/white_powder.json"
@@ -4170,7 +4718,19 @@ hash = "4bb409f878f80c07fcda555d4a22a0a673bbc05001e209bccffd9b162b021f05"
 
 [[files]]
 file = "kubejs/data/ptd/advancements/white_sheet.json"
-hash = "0fc33de05670d052107e8c9900fa70d811c773cfd3fec38770af2e7d0570060f"
+hash = "75754b70c6dc6bc44e256148a7a08ff701b8c4253536d4094735dc5fc1bb5f14"
+
+[[files]]
+file = "kubejs/data/ptd/loot_tables/drg_cave.json"
+hash = "95a7fc1e60f98aec69539a4ba831259f5ecd3533d73b2f723bdc09ce57cd2106"
+
+[[files]]
+file = "kubejs/data/ptd/loot_tables/jaspers_fishing.json"
+hash = "3d2a13b93cafe0c53194f6e4a9aea98d711a128d140c559c18651989f5210837"
+
+[[files]]
+file = "kubejs/data/ptd/loot_tables/jaspers_fishing_library.json"
+hash = "899305a08ada8ce1c00b682f4decfc85970c077635e5a28cb9db33504110901c"
 
 [[files]]
 file = "kubejs/data/ptd/worldgen/configured_feature/replace_terracotta/replace1.json"
@@ -4249,8 +4809,100 @@ file = "kubejs/data/salt/worldgen/biome_modifier/add_rock_salt_deposit.json"
 hash = "7952921e9d4106984e0f71cf58e061f812a3fc35d12b7a23d0459ff965ce4618"
 
 [[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/ash_from_burning_mobs.json"
+hash = "3453aca4151d11583b45db3178b79420327669346a5116ef1f8d97ee5905b1eb"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/fishing_antique_ink.json"
+hash = "8c594706cd2f9a5a8da6012f26b48a1c9ccafbc1607458d2c55d0ddba3104e81"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_modifiers/fishing_antique_ink_treasure.json"
+hash = "ad1c3a63c38bbcc8d7f65ebacbbcf85bfd0cc9a5208d2bfdb6eac465a4526062"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_blue_bomb.json"
+hash = "e24b12243a0d11da0661412e64cca222a4cdd7dc11b81e2bfe8c09c3d3af4fb4"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_flax.json"
+hash = "1a1e992cee959d30af23dfbd871c7762b67c1179f4d8f014da2785079541140e"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/dungeon_quiver.json"
+hash = "caba0efa1b01981e49a33e3a45191b7392c7e690fb0b06df1eac90d90ff6e0b1"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/end_city_stasis.json"
+hash = "bb79fbed692e18fff77efc82894e80f502bb0c00a67c34963d6f82c8dc465fe1"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fishing_treasure_antique_ink.json"
+hash = "9b3b9aa7d517915c50d5fe91031081839e142923d9de20bd14ade0f60fa7f529"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_blue_bomb.json"
+hash = "9b21ef23aa601b69407bd6eca04169de98d1ec756da61a9674cc7948ee8a1e70"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/fortress_bomb.json"
+hash = "7981b0777a39838d7918091fbeffdb8bdc91fdf50ff9f2130c5417c5146ed1fd"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mansion_quiver.json"
+hash = "57c9827ece99c2526705c2f767a7a3f204277ee7b1523bc040695f1a7a2a16d6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_blue_bomb.json"
+hash = "ba8175fa095ad55bf11e82507ce276239fb31680135e7cd5758d9e08533c8f2d"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_bomb.json"
+hash = "191863b5d35064786ed495397af2ed6fbdaa582c7381af2cedc931ffd2fbb46d"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_flax.json"
+hash = "b82a52fdcfb46959d7fe61968597e2151fd40a9317472e564ebcaff21c44cd1e"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/mineshaft_rope.json"
+hash = "206f67ada2b76c448b604cded03d846ed99199ebc9e78e1d9594304ad0b27b1a"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/pillager_flax.json"
+hash = "3af03ec2542e8de221d05dda9cea2462019fd8bc990262a46f50d824b7dfe913"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_storage_flax.json"
+hash = "8ac4bace40f1ebaa3b1d65b689186bed22fda8947d84d5e18e16bd2b3233bae6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_treasure_globe.json"
+hash = "fff972d868594dbe0b337155270c00f21ebb565159770b7d564ae56a3399430c"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_blue_bomb.json"
+hash = "2454a05382bfeef3059aca9253d901df0c7307029279baec4e16a9cbbacbc615"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/stronghold_bomb.json"
+hash = "380237fbae9de64b84ac359ce895fd879809246f00ec8ff37ed374f9bf9466d8"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_blue_bomb.json"
+hash = "be8e7199b5b7bd151544370793dd21dcc0a72977ebe5035787266e80de46cc51"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_bomb.json"
+hash = "193c7502353498f6495a8a73e66dd2419e5df704764c9150d52e728d597541b6"
+
+[[files]]
+file = "kubejs/data/supplementaries/loot_tables/inject/temple_spikes.json"
+hash = "a99f0d1c70ac159340330b5a4bc06f927b8e6c9abe58f9f21a448a8bd27f7968"
+
+[[files]]
 file = "kubejs/features.json"
-hash = "5f5da1f2188c46c638d498e286dea74c46e4576ce7dc7e9bea6211e896204467"
+hash = "b509f4462930f6326c3338c71cf3b90f5557490fb660793e3b00821aedc9d90a"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -4258,15 +4910,27 @@ hash = "70f26cbe24e0349047f8824b478a1aa94167048bd4dc85af86e84d85e649c535"
 
 [[files]]
 file = "kubejs/server_scripts/base/debugtools.js"
-hash = "044ca38f4471085bc089b7f181b9ecbeecbc30143ea3999d8117b980f5c51bef"
+hash = "9ae730e9b5b9f75323b969c733f80d51b780ced135f607c2c63bfc5c6ef96d37"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-deflowered.js"
-hash = "3e16c935c0ced2f3b0ea576f1ecfd07bd02a04c0a8dc58ded0efa37972312c4a"
+hash = "bacfcf8bd74d307c945d77da670ce147aafae604734565f4c2aab720d8782231"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/botania-runes-detiered.js"
-hash = "3542491be239252458bfa0edcbf1e59555fc4be484e5415268686faa46a32286"
+hash = "93c6dbc1d292260a792d86fbd72804f31e7b12e5b6bc0dfb2d9cad3020d0d747"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/chickenEggs.js"
+hash = "7701c8e9d4ad7a4dbae0a75a6afdb3e1a0e315c549747d426b376e40fa7534f6"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/crafty-crate-tweaks.js"
+hash = "6ff8d0db2b99aae393532180f595392322ea81c496e3b497bd98f76b89012dfe"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/createDiselGenerators.js"
+hash = "d0ff312d538e16afae6618ad4bf278627009401d42912cc6297202eb9c4e48e9"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/creativeUtils.js"
@@ -4274,7 +4938,7 @@ hash = "d57d4bfdbee3dac33ac14eeaf6512aec28c6b7ab45ea5ced71b17f93f57f59d4"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/deadPlanet.js"
-hash = "86bf105808f34314816a398da3826ffa8910910214a53db864f9acfcfaf2d20c"
+hash = "c19a54b70946d568324972970837ed551a46e06df106b8edf4a4bf81ecd63fe8"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/developerCommands.js"
@@ -4282,11 +4946,11 @@ hash = "2f140c19f7c69a63a37e1304e71e73029211207aca59c45381590587dbfaadbd"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/devices.js"
-hash = "924fe1e368115f01e1ef3a5a6cd1df5dc1819c0e21a6cd0fd8bc0fce39492794"
+hash = "87cceed0bdd297464340ae41de0d62029d7d91ad4f18a2c1073b11e67633d8c0"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/diamondToolsSilkTouch.js"
-hash = "f7d828b6fdf46f5dbc1050b27bfd2078d432cd864e6a177bb2447ec9772e73f7"
+hash = "26c6051ea737d1dd953c161f1bd583069311b692975f6aff65dec0b472049d93"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/disable_saplings.js"
@@ -4294,11 +4958,7 @@ hash = "aad43bd7e2b2889cc1944e08f6f4b96d6a93d6cdea0b8f5495bb41e8739c3b8c"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/dye.js"
-hash = "7dd64789b0b6ddd3d1ec0e809ff946ff3250aa4cefe1d5dc08b4282b3dcb7a92"
-
-[[files]]
-file = "kubejs/server_scripts/base/featrues/dyesel.js"
-hash = "50b7237ff81ee7fec8e7f98543f27c89632f3f0e9f8221ce78ce3ceb64c733ff"
+hash = "a4293c8067d8b7a93b43573579ec7381ee431b098a660bab0d24e797f9ed5c2a"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/food.js"
@@ -4322,7 +4982,7 @@ hash = "28d5cc991824e05de672e87c35e604d82ea47ed8748efa83853bb7107c07b532"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/ingotReplacement.js"
-hash = "995023d6137984a47a05042234f37f5c268420e50a7fb88d1528279f0ecfbb59"
+hash = "e1808b7a1f9004b6567815efab3d29e83473d8258b50996e02f6c2a02ff32658"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/items.js"
@@ -4354,15 +5014,19 @@ hash = "fd040c2ec1ea3b44ceef0f585d562bcff16b93b46a955898ddd269d22606fa01"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/oresAndIngots.js"
-hash = "3e14e9d436b0774d62d092c46e49f97be50c4f6ae8ecaef8058191cf5aaaffcb"
+hash = "7ceb87e9a77949d77fbfbc7b9af4ee2941be15625e49846ee7ee541dac790cb0"
+
+[[files]]
+file = "kubejs/server_scripts/base/featrues/personal-equipment-reduction.js"
+hash = "1e7e894979335b8c453bdb8d3a28520713564ae1805b89dac1f5fd874283f1d7"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/petBetsy.js"
-hash = "bff4a3ad6e1122f042f824018b3bcc89d275fb9999dc531359ada99cbdecec79"
+hash = "1bb7c9045522e6cc99d73dcf40e2055db8e41319070072e2baff6487c7873bd9"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/playerLogin.js"
-hash = "fcacf54a7fed3cfcfc44ccdceca30f47f94016976fd05962b25c39e38c901246"
+hash = "be8dfca607ec002d98594b9354d83e92d07848ef57181a584475dca7b56837e2"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/powders.js"
@@ -4401,12 +5065,16 @@ file = "kubejs/server_scripts/base/featrues/trees.js"
 hash = "1cbb16ab4e99faf8bb8905d4a3a1324746ed7efd4e98ca4e0444a4c13a09b8dd"
 
 [[files]]
+file = "kubejs/server_scripts/base/featrues/variantList.js"
+hash = "b587f6184079f1ca24bcdfb7c938822ba625c06bdb95758c47cc8b0147f6a279"
+
+[[files]]
 file = "kubejs/server_scripts/base/featrues/variants.js"
 hash = "a6f29339097133658df0e93a17685a11fd9610cb19161589f5099da7c529d045"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/varient.js"
-hash = "b015e57ee6553c5da24027918aa062d4414da4f1e65293e42f8d3fc79c54b160"
+hash = "7d4fcd5a92d4743f06f66cd7a740b838c6b40bb9709a2227952a1a64282ee87d"
 
 [[files]]
 file = "kubejs/server_scripts/base/featrues/villagers.js"
@@ -4434,19 +5102,19 @@ hash = "458cb453ea0f6b7cc3ca46f68c4cfb62bef0d8b230ff0fe8ca751effd336de72"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot.js"
-hash = "28f9569cdfc5f2d0166c22bc8163bd88abf4b5a4c124485e91206af84e1dc74a"
+hash = "3585cdaef6f714e1e2bed502b6b5be33c08392909e2dbaa51d8de194d2989b9c"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/appliedEnergistics.js"
-hash = "3b63cbb442054ac268c9664811f5a8db6a1f37bca1eb80b93ad745bcf2897d9c"
+hash = "9f6e6eecae9bc87a9ded3b553f2527007060d756e01d0a5d8d56a0c62b64e67e"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/botania.js"
-hash = "8bd7d1ff5ff6388c1c7547a853834147a7f8eeddd9dd4e6c62addb723a635e46"
+hash = "9427b6c1184f3632c66387e57d147791cd146e464df8d3ea7e52650ddbccb204"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/create.js"
-hash = "c0b19ce6e250eaf5fbbb7de0c1931af8c11899b3c0c4e4b72cd182166b13c45c"
+hash = "d9ebde764578468941ae35d1b7f269fadbf4e74c934ca65b6db9c1ee682b2538"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/createEnchantmentIndustry.js"
@@ -4454,11 +5122,11 @@ hash = "9f90166ef75cccf5895c74b24205fa47d731e9a9b9a75550bcbe2644f3851ff3"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/minecraft.js"
-hash = "c18a3a26ccd502f1afe7577811f2aa2b65438b40f65404adec87b9dec4ab3182"
+hash = "9be0f6c5bb8346e5c4354fa6d55538e516de0f55a3e089e58e91a6efb8128a98"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/quark.js"
-hash = "b88c90901aaffc96094db45723a7b009023b584faed110211a5a6c5b08d85850"
+hash = "8343759e7773f31eccfe8656b1813306b15149cc38df2ee04811f9e0332aae67"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/railways.js"
@@ -4466,11 +5134,11 @@ hash = "0f68367d9ebb62fbb5c1bb2b2c517c65ae1ffd18440b36a293b869b52dad934b"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/storageDrawers.js"
-hash = "b608bb2112e157a330d37d6901ef658510c437ddacbe18fd70c0ef357afefc83"
+hash = "425af17d5ce1cf791443a8f3d6b6c1bd5c2261643753ac4b722e6d34853c010f"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/supplementaries.js"
-hash = "35315939837b2468899e016cab7367e17c3d1288c147deab00b5519a26486195"
+hash = "83a78ab5092ccd6c61897c0c11dcb36c556ce00f2a85ce64e027c2185d263d9a"
 
 [[files]]
 file = "kubejs/server_scripts/base/mods/wands.js"
@@ -4486,7 +5154,7 @@ hash = "04e61c9aba39781aac713d7f102234049b3e5660fd16b5e0ba97981a95931d0c"
 
 [[files]]
 file = "kubejs/server_scripts/base/process.js"
-hash = "2fa1a34c3c2f9aeac51caf5815930c68d00d5502d28f377e39904cfb603fe721"
+hash = "14a497000d390f0667ef580389765ba96073ea825c911c456084837f1cf759c8"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/appliedEnergistics.manager.js"
@@ -4498,23 +5166,23 @@ hash = "5b31606659a2066a4abbaf50b1632754ae8e41a85029ad2dde21984cedc6ab14"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/create.manager.js"
-hash = "031aff042f4012d9c1af1d42613267968a2d41208137aea9c8e17ccd7f7b6f90"
+hash = "2aea335cbd56b2b29eef653bcff91ed170d15ad34f230ddcf64cc48d83549f1a"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/createdieselgenerators.manager.js"
-hash = "b733d5c6790b45a697d994074c675b229e0713a1acb78eae025487065b0d4fa7"
+hash = "f52597e9a0e29791bc8c740ad5fb73a9f6f1bf4a6b2d1349313a2e26e352ce03"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/lychee.manager.js"
-hash = "b0ee5c1681a45cf7afeec5f71f22f2bdfa20a5693133b9c143c3b212e4f3a7d1"
+hash = "9ebe1892cd8614717743c52c4085146e9735596c7f025e2bc8f059b236c6db1f"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/minecraft.manager.js"
-hash = "bd8c106793b3830a25109f94dcc51b3fde55d39d57230c690e87b85357c9991b"
+hash = "dca420b4e11fd5ac3ff342ce3bab3fd584debfb5da2037c580569492fb3e6b31"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipe_managers/wares.manager.js"
-hash = "aad57bd0dcdbe23277442308392322dd7fce550c2781f7f27ddff52e6bd088b9"
+hash = "ac774718690fcf49b7aac14bd3b9ea1a05c7df1b7c52c3c59a53f8bb3b91cb68"
 
 [[files]]
 file = "kubejs/server_scripts/base/stonecutter.js"
@@ -4522,19 +5190,19 @@ hash = "0ce8d064d16f09baa65b7671f9e1986159b2fb9ead4a43d95aad67a931b2f4b7"
 
 [[files]]
 file = "kubejs/server_scripts/base/syntaxUtil.js"
-hash = "0b54cc75c564f4e12089c6cb7fd558dc9b74defbe7bf614b188eb03cbe57cd6f"
+hash = "b1b703beb77b0c9f89c537de5f9612be5ce26d64ee0c9a1d7b069b915256b601"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags.js"
-hash = "657ed925e3e07e59fd8dee7fb133f83a2e70554fa4a97f4e50cd0f6a34412352"
+hash = "45c772897ed33f1e19b8e5d194fd9cd8131e494b6e319110ee0cd69801adf0bf"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/backwardsCompatEngine.js"
-hash = "e820a61bd29107c582ff499fde64d8bd18730293b83e560182f44239c75c299b"
+hash = "ef64b954884fd4182ca2bc87b03d367ee2547560d31a13b7482901f83e459fc4"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/landingTradeIntroLine.js"
-hash = "10238305f7b90fe22b6f4e1e95819bffce934f343191f9d02a191240e5009348"
+hash = "571e90d213b843b5c0d0cbde43e37ef2bd2ca9aa3fb56ba255ec7c7a3185e7f8"
 
 [[files]]
 file = "kubejs/server_scripts/base/trading/platform/animate.js"
@@ -4553,12 +5221,16 @@ file = "kubejs/server_scripts/base/trading/platform/spawn.js"
 hash = "a7ac0d60da08620492bd0956da2ebeeb7384ede8db14159a33f6154e31f5cf68"
 
 [[files]]
+file = "kubejs/server_scripts/base/trading/trad_related_recipes/trade_recipes.js"
+hash = "34bd024877759a6f9fc2f9e95e22f6f532725bdbf4712f390f51c879a78b94c4"
+
+[[files]]
 file = "kubejs/server_scripts/base/wrappers/ItemToolTipEvent.js.disabled"
 hash = "cd064983ee49455c6b6a8ad70da284e0c0d8abc2b7f873e0812addb81c28df86"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/_modpackUtils.js"
-hash = "4769e2a9e63e72e704ccef5be798c5addc47f4431c3a55384219145220673899"
+hash = "5b43450c8842b9e1ec87d9ed2087e494ef0f63dd0f6f0fb76c80d747831d3787"
 
 [[files]]
 file = "kubejs/server_scripts/base/wrappers/recipeEvent.js"
@@ -4574,7 +5246,7 @@ hash = "3e40e8d8629b1894e6c8ef1fc7489df410da39911e7bf02a4a0b01ce7d1b55ba"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "4b8fa650ab0ea8df2c05ebf3cd374d3ffd99a3813b96442f6598a3a8f82bf08d"
+hash = "715f507fc523ba0b0389721c4957d899b8253d5e9e7bf8cb5ac4b8eed2fac4e0"
 
 [[files]]
 file = "kubejs/startup_scripts/conversions.js"
@@ -4585,16 +5257,24 @@ file = "kubejs/startup_scripts/customStuffs.js.disabled"
 hash = "561a42ce72cf0011daefe42da66cbe4667665e2de9f9b1a8d8176ba3cf813d47"
 
 [[files]]
+file = "kubejs/startup_scripts/custom_blocks/gray_fence.js"
+hash = "10658902ee4988fac9aade5fe88f671b448608c9bd0d31d0ab59a7ceeec7e059"
+
+[[files]]
+file = "kubejs/startup_scripts/custom_blocks/gray_fence_gate.js"
+hash = "8211d7b5a57b41ffb309d9ee08eb1c682be677253a7eeb9f5bd277c04e15ca24"
+
+[[files]]
 file = "kubejs/startup_scripts/destroySpeedAndLevel.js"
 hash = "560821791baecc3f25802afb80befc97943a76f73165645b5709f9da210eed89"
 
 [[files]]
-file = "kubejs/startup_scripts/features.js"
-hash = "31800ac4752f5e282d5a6637990eece41b641050a22321fa5a4d40b4e5067848"
+file = "kubejs/startup_scripts/emi.js"
+hash = "3d5a3b42f0edfd2dbee0d5f14b1e99e2afafccb2341f3f773859482766db26c3"
 
 [[files]]
-file = "kubejs/startup_scripts/generatedVariantList.js"
-hash = "64c3258b45561f982e5716541d12cd338f78370f482ee2cf6c86393238717cde"
+file = "kubejs/startup_scripts/features.js"
+hash = "31800ac4752f5e282d5a6637990eece41b641050a22321fa5a4d40b4e5067848"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
@@ -4609,6 +5289,10 @@ file = "kubejs/startup_scripts/indestructible.js"
 hash = "e221e5586e7962c4bc396e0b9af073c8295d37e89e55030da1c0d0b652d7c102"
 
 [[files]]
+file = "kubejs/startup_scripts/ponderDisplayItems.js"
+hash = "7ca2acb8a7432821271100fef46a858a828b4700f942d3fff2a3d844bc6dbbc7"
+
+[[files]]
 file = "kubejs/startup_scripts/spoutsFillCauldrons.js"
 hash = "f07c264ff190773abb05fb93b253ec9b2dc5e2c66d09d59cc117542e1ab8e121"
 
@@ -4618,7 +5302,7 @@ hash = "939d7575fa9cd16fa4f0c1ced5075815bd225ddf808616c5809d9ba6f2a9b2d4"
 
 [[files]]
 file = "kubejs/startup_scripts/stacksizes.js"
-hash = "619c9a40793a29cc1a18bd274194f4c02dd86b0e8d20f4795c8049217cec415b"
+hash = "dc1f86df28b22d0f9e4fe63c2a0da7669127fffb465934c8228258a8eb99340f"
 
 [[files]]
 file = "kubejs/startup_scripts/trading.js"
@@ -4642,7 +5326,7 @@ hash = "4996e0a4e6169972e2a1d5ae52e60d50969ee765b819657afc5bf7d426e9d843"
 
 [[files]]
 file = "modpack-update-checker/meta.json"
-hash = "dd269d97a82b819e3bf6c76d0b9553d086e6984a118af0a7ee356cf813cb748d"
+hash = "09e5f4dc8f221f99f703df9747a1fa93185d8f2c61c7c52c1aefb2691f04c190"
 
 [[files]]
 file = "modpack-update-checker/versions/1.100.0/changelog.txt"
@@ -5833,8 +6517,28 @@ file = "modpack-update-checker/versions/1.192.14/changelog.txt"
 hash = "e32b7047cb946b7c1e3f3331a59e2c950cfadc9d93d002b17252c5d872e09a04"
 
 [[files]]
+file = "modpack-update-checker/versions/1.192.15/changelog.txt"
+hash = "87943e59732fcc461d9dab6d50428de099f8a51e67505baa8fa54933a742e353"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.16/changelog.txt"
+hash = "efcc957d42dc2a6741d4217de02c6d90cac6a5163c556dec5401ef9e23f9c772"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.17/changelog.txt"
+hash = "1544aea317987471f6b7f3039ab9bf1ab9539feb6a24bef1e4d77de7ada29df6"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.18/changelog.txt"
+hash = "17e4c1065a69a56f6e396d8bce3023bba0bdf144ac237ea09c19002448329288"
+
+[[files]]
 file = "modpack-update-checker/versions/1.192.2/changelog.txt"
 hash = "616c299ad78017c71ae395d01db8b2d1fd0e7fc8baab30159aed73f942677ba9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.192.20/changelog.txt"
+hash = "0bbb04b75210a2581ad9b418f6cff7fcf63e5e6b9acc6394217f8cd6a2b4bb2d"
 
 [[files]]
 file = "modpack-update-checker/versions/1.192.4/changelog.txt"
@@ -5859,6 +6563,418 @@ hash = "b3ae946f49e509752a018ef48a2c54d3b9f3f0e736bc4bc255c83f40ea2962be"
 [[files]]
 file = "modpack-update-checker/versions/1.192.9/changelog.txt"
 hash = "0084b709c58b86a426abd25a5c09a37a6322f6349c68c461ab3c592ed1594c19"
+
+[[files]]
+file = "modpack-update-checker/versions/1.193.0/changelog.txt"
+hash = "132b77d18ff126ef75537e4806814637b13bcfe1a67cc10fba19c4a9f4098ec8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.0/changelog.txt"
+hash = "60322421da8c92966bbf72377c1156558ea8627e2a82ff55a84d00c7ff69df54"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.1/changelog.txt"
+hash = "4d9f8f95dafbd9e1b74a582f4d9e965e0da15526d4f2732bf6dd30c453d2169b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.2/changelog.txt"
+hash = "a8694597ad7f4a0b3269756143ee0d3a85dc1d05d67e74ab690d9b98b04f2586"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.3/changelog.txt"
+hash = "fd0d3e0da8003ee11ec4438dd22155fdc212d95d650eb77996790c37767cf6b8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.4/changelog.txt"
+hash = "00188181a3c1f990816705eb1ee20b3ced99fcef30380972ef3a755d8f662741"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.5/changelog.txt"
+hash = "e8089c5faeb221ec196b6ae6006cd795dfe9259394573fd669cea662767c1488"
+
+[[files]]
+file = "modpack-update-checker/versions/1.194.6/changelog.txt"
+hash = "a834198dec7e3c1c757b692d95e63aaf81ec95826b77d65422a52d9d34a69f60"
+
+[[files]]
+file = "modpack-update-checker/versions/1.195.0/changelog.txt"
+hash = "c8df423bdeaeb3a44caa440ea6d9d56ee8d2ebf0069f770624e95bee9bef7bac"
+
+[[files]]
+file = "modpack-update-checker/versions/1.195.1/changelog.txt"
+hash = "e8aeea39592099e7a06c1ea462fae6b99ce2d6d1eee1a52b727644dc7a2ddc5a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.195.2/changelog.txt"
+hash = "42e32d21e7d5d3fe1e0cef9ea31ea05b1d878fa13604ed5bc6199f27aa07059f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.196.0/changelog.txt"
+hash = "7d1bfe9d2cb851c155e5e8a06395d05d138111fc09c3de35e7f65723fea19fb7"
+
+[[files]]
+file = "modpack-update-checker/versions/1.196.1/changelog.txt"
+hash = "75ab5795497a327ecf1d3590457005a5bf556749d157e9c38e9ce0f76ee7c70b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.196.2/changelog.txt"
+hash = "d456ebd7848c7bf4175933b0a8f588b6b72a9dd3209028d87ce9c5bc62899918"
+
+[[files]]
+file = "modpack-update-checker/versions/1.196.3/changelog.txt"
+hash = "11335ed295a505fb2077ac0d1eb1ee9c44f8f758f79f4d29d5f9123a196ff45e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.0/changelog.txt"
+hash = "202eca60574b4e22d00541416cb4013e7b16814988cb39e197228d8a3cfdf0a2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.1/changelog.txt"
+hash = "aa0b5b3f271cf51b81a1a2f66408fbd1d7e2f86b6b4c54e075b91c356874bf51"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.2/changelog.txt"
+hash = "a6baffca5bedf1ddf868eb861d377bef412e29722ad321aba24c4a807bc9b127"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.3/changelog.txt"
+hash = "b27529871ae73476530cf945363bd0faf840ff4f1cb607e5f031ed86ce8e11d1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.197.4/changelog.txt"
+hash = "30b19519e33465714e69e65df231a3322f5e9c03299716b5d94fe78f11488458"
+
+[[files]]
+file = "modpack-update-checker/versions/1.198.0/changelog.txt"
+hash = "acdbe2e75a593ca75c8587c221d1cfc33e2f1b335497062c19cf12580734a3c1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.198.1/changelog.txt"
+hash = "c546aff9738a069e196e5330a6687b887029e3e8af7df45c3b6f323457105f20"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.0/changelog.txt"
+hash = "66cedccbda72f550ab3f777fbe04b8153fe07d6049c4570a0f11b95c611666bb"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.1/changelog.txt"
+hash = "d4e30563e594168c14c75835f073e777acbc62625d8ea10fbaf2cc2f337c3b61"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.2/changelog.txt"
+hash = "fc3368ea448adbbcc15660f99e0fcb4dde2f318fd19ed1da9a586395edf4af74"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.3/changelog.txt"
+hash = "e99ff3a0813552087d26c01860a2e0e91f61597438b4c11bbf034f77171579b3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.199.4/changelog.txt"
+hash = "7e19dd3476decb62364d2c648a5411342bb0469a0febabffe5b5f925ee4cfae3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.0/changelog.txt"
+hash = "9bb5aa8c2c7df02c95f6b9af7272991cc98d59dfc2115237fd5d719dc2c5c23f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.1/changelog.txt"
+hash = "1d54ead7d37eb7686468e19d3c9a2ea19b91bcd495f89a2357d54ddd3d74f585"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.10/changelog.txt"
+hash = "8ebfad2bb418d124d7f7e8708e7cb8cb6b3bb0bfbde41d370dfe81eb3195fb52"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.11/changelog.txt"
+hash = "5caa3c0300a5c5d56b38936b80e8ee50c5d9645c766280bf2335ca909bc9a4a1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.12/changelog.txt"
+hash = "57b05c1ad9df8c6b8a38af639c683462d7c841cac8372a75966b8f3af99ab0b3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.2/changelog.txt"
+hash = "c5517466e07cd6b2a1cfa2ff8dd36c87a23f65b895df4b4374a4fbdc339f2992"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.3/changelog.txt"
+hash = "98c2794ca5528f3a4def975d996512d5ef3a759f57f6eb065cd03c53787ec3bb"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.4/changelog.txt"
+hash = "bf42222457a37bde094d6eaf6ada0289030d25d2ea5cf4e196bc2e58034d413c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.5/changelog.txt"
+hash = "f3075fd1d499b60c2fd09c50bbef7698ba5066b9add5ae9cf9c77042bdb2b337"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.6/changelog.txt"
+hash = "45db768f6e39af8e7ef4c336766c1a374de75c2201f624f43b7560c7b9c530ab"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.7/changelog.txt"
+hash = "2010fe320e0fa4ac84ed4a0776d4bca3caf0b33c95b4787ab50962c36af07d11"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.8/changelog.txt"
+hash = "4b3a2aa32522fc0ba882f789f40384700b301c1caed4a0e2011b85cbf4ba50c6"
+
+[[files]]
+file = "modpack-update-checker/versions/1.200.9/changelog.txt"
+hash = "9a854c446195fae419319a573323e28dc0097f7e0d3b4a31130a3b9b7343f9b1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.0/changelog.txt"
+hash = "0e0d69e732c6662e4661a6b02a04c4c6aeeb1c37b64ebec4fe28d4ad2929cf54"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.1/changelog.txt"
+hash = "17756be79c73b0ac36bbfe5b676e1339db8b57e677d957d3f28092f97a57f68e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.2/changelog.txt"
+hash = "1855a9da390f905a54711cdcca3b59979eef9eb7ee321357820120349df8f86c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.3/changelog.txt"
+hash = "d546299e6fc452c9c4e3c7604dd0835716769d2e820f852428bb443107554da5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.4/changelog.txt"
+hash = "a88f954587e452b631cca30de6b9e44ee177bc36616c17a2fd7b4a1781c375ef"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.5/changelog.txt"
+hash = "96b362590386d0fe5397f2fb354498b9a3606a7a55817291970810c7e41f4c42"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.6/changelog.txt"
+hash = "b391d6c326c977ddc36c53c27f4f6697c2e354ef420cca9b7264dd0808bd45cf"
+
+[[files]]
+file = "modpack-update-checker/versions/1.201.7/changelog.txt"
+hash = "070dc95d4a65bfc6179129726f03db2468a9fa2a6a69b930266cc9502217a875"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.0/changelog.txt"
+hash = "5d5810e4e49e62367529b1f9cb794ddc2f7bb9d149f6bc52423d6c902c208c41"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.1/changelog.txt"
+hash = "77f43379ce8d2f491788fe61a1f19266b366206ff17ca94a618e1801431e3dbc"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.10/changelog.txt"
+hash = "610c70630f2a160624f5562184ee56bee76e470bfed44b0c95a38e0e1be05725"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.11/changelog.txt"
+hash = "e4e1e3c431896bf7f45de2efee79b2c9a1f786485a6f54c10b5fae8e822c19cd"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.12/changelog.txt"
+hash = "4b399d6d6d44520aea5a80822b507bdd313dde41bd4fdeb79029ef4992845fd5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.13/changelog.txt"
+hash = "dc1838b8f2441f25dd3898fafff7adfad0630c9c77bbd1947cfebd83a7f7637f"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.14/changelog.txt"
+hash = "541dcdfda4911a15596dd56bcce21efacac7ed79adbbab0166b5007710998f36"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.2/changelog.txt"
+hash = "87b0747eb9a541ffb2d8b5d59bb6572c2f70305d5c36ff41a3daaedfe0ff9e3d"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.3/changelog.txt"
+hash = "40dac7890ffce31bd6d3e528a6b6b869c377b95c2c935fa27ca8f8e194b2db58"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.4/changelog.txt"
+hash = "a2ecf8344e0a0f9f968cd3393d6cb50c7f573c650266880fe687c62f41456dcd"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.5/changelog.txt"
+hash = "62578ce5fab51f63f2e8157919fea46c156534566c8c33b072fddee8d6c52ea5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.6/changelog.txt"
+hash = "3333c4dfbef68b29b0e4d230f580ba4c9aa72c9d24368d6a77083374c0d9ae39"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.7/changelog.txt"
+hash = "e78fcdcda9aa96a76f074bcd7d330341bf80b2418e21e768c708fb89ee811d4e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.8/changelog.txt"
+hash = "450c73eea74ff8fc2be6bcf69a9db50c50c03cf193fe62b3a3da2b73fdb291d2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.202.9/changelog.txt"
+hash = "655c079c2dbdefa010a7f12be3bcaafffd30da84b361f68546a86ac6fae00936"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.0/changelog.txt"
+hash = "d662023641cc20698f2f462002d1d5fcc0130f33e294a5797f972df984257bf8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.1/changelog.txt"
+hash = "58d92506fea0707b3f9a1dc347046ae7946322daa387c892f66d5895b0b6a520"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.10/changelog.txt"
+hash = "04d4964494428317fed5bee9677b84fc9c44f9ee35508340e756dd067b97fc28"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.11/changelog.txt"
+hash = "9425f4048f7df3d9d53424aa55e639b5c5364f3d6dd15b0200aa76157fe375e5"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.12/changelog.txt"
+hash = "b460a3965e85fa09d364cffad43d6a47a1e270b01abba85d4ced967e57b9d0ff"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.13/changelog.txt"
+hash = "cf9182770dfa72014d643f5ecba3e8911569e759caed72314d22d2a9015b0435"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.14/changelog.txt"
+hash = "e50c3719c61e50b8ce77fd0ba22bc88ed46ff407915d2ca2d9931fd9fffe4699"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.15/changelog.txt"
+hash = "a18730f56d111fdd99d6968ccd3be1055a4a225deceb9509dd342351f35606f0"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.16/changelog.txt"
+hash = "2df5fb5f0aa58f4c7d3533f73d13fdb2224e6f6ea068f8ca4114258e2a5f1df9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.17/changelog.txt"
+hash = "687760f8270cbbff1e761df97387757966287572adb15e605777ea146bfce022"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.18/changelog.txt"
+hash = "494120f832c43de452303db6d8a9959b6a8c9d025db878fa71acf3cf5d813f0b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.19/changelog.txt"
+hash = "33e9b3a5691b0791d9b2a96156dfc65042e8512477abea5f955245fb9aecfe17"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.2/changelog.txt"
+hash = "0ed447462a54669c4f5c6f6d56bb15245735d883bb766a35ab5575688c3e94c8"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.20/changelog.txt"
+hash = "112e023f774a9b4ecd5b9f464f93f19b438c099a1f5960dc707bcc4ff92d3197"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.3/changelog.txt"
+hash = "e1fa708a468c2520e44e0ae67706c6f925047dbf80d648ab518e02451567c630"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.4/changelog.txt"
+hash = "0fc30f7c10b75b4219c43c1abc72cda0457a2e020a52e0642decc6e8ce4cc8b2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.6/changelog.txt"
+hash = "78bbaf49ee7745eb71febee5df3e917b4591f6dcf896091679e4b9780699e5d9"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.7/changelog.txt"
+hash = "a7eb86cae6d0d115ee6ef6b6ed094dbb5c7c11f71d5fc5b552b48503012fbb45"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.8/changelog.txt"
+hash = "20951ad74df6465f8c65d2a7b5aabf456d75df52774e9f0b352c6f6584516dd3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.203.9/changelog.txt"
+hash = "6a815dd360de8411bf423ff629854f9071b999f80cc4040e0d88366feb183e29"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.1/changelog.txt"
+hash = "b0d83409b3e885c6eb2c8bc5c09c46871b1ae4c8a8030c0ac4094913b7bd5df2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.2/changelog.txt"
+hash = "27ce0956ae07e49aa74a4f0a24e8c3cfdd2ce265c003f7cd4481540933fd67f1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.3/changelog.txt"
+hash = "ac4a28bc47fcfa5bc85f15e05fea91c8f67313c08e6156f5dc49457a85162a71"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.4/changelog.txt"
+hash = "a8154959e040573569c4376c3d6774f1c75924b33287d0eb2affb4d03b87ab95"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.5/changelog.txt"
+hash = "8ab956bfb7397a98689ae9718346bf527f54ff43ae5d7debcb2f0d7f6bc5743c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.6/changelog.txt"
+hash = "251be46581327be467494cae97f332df2e5aed582c09fab7b13c9555f571702e"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.7/changelog.txt"
+hash = "a7e362751e2fb0358adec3040c58d27163ddbf78e985451ebfb936d56fe923a1"
+
+[[files]]
+file = "modpack-update-checker/versions/1.204.8/changelog.txt"
+hash = "452bcfecf529d82319cfec4c04cae8acec5845f8796cf982655c31314d87ebfb"
+
+[[files]]
+file = "modpack-update-checker/versions/1.205.0/changelog.txt"
+hash = "fb6f3dc90f3607104d8b16ba24c2824add15aeefaaabdf898468121a56955f5a"
+
+[[files]]
+file = "modpack-update-checker/versions/1.205.1/changelog.txt"
+hash = "18b7e47f5981374a9f37b76aea3a6bf95447fc29b48b4e391df8fc7ce94cc862"
+
+[[files]]
+file = "modpack-update-checker/versions/1.206.0/changelog.txt"
+hash = "b1141316a999b388dd362430c11d14bafc37d60c132b90b005c2a9b7932930d3"
+
+[[files]]
+file = "modpack-update-checker/versions/1.206.1/changelog.txt"
+hash = "813ae561a40f40b92403a8239e4b333839a03534460a95f76710f98a15ce851c"
+
+[[files]]
+file = "modpack-update-checker/versions/1.206.2/changelog.txt"
+hash = "11cb4b80f2b19631d8b05724e0f2619d71bede4c975126c67b43afca4f2c6072"
+
+[[files]]
+file = "modpack-update-checker/versions/1.207.0/changelog.txt"
+hash = "c785417c3f1894eeadd22f362cc51cb4f38618d3f62b850c203c49092b1bbf92"
+
+[[files]]
+file = "modpack-update-checker/versions/1.207.1/changelog.txt"
+hash = "5483a9220618069b834602c62f4f79857b0b26b5478f6c19acb30dbe172b7db2"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.0/changelog.txt"
+hash = "494fa6de6f58c8f63db2b3a94a2ce2dcfa50d44439ee6711ef48e4ec84370af7"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.1/changelog.txt"
+hash = "4a79b3d40de17de35d58b389fbc04de7010d722f346f0b1999d76156a4611d44"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.2/changelog.txt"
+hash = "7d83af38ff86e8022ac284c6afad67c9b9027787c862e9d769624283c43a15da"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.3/changelog.txt"
+hash = "7551c2456a596aa1130e47d8a6db4872f98877797858a186c3b8333eae99890b"
+
+[[files]]
+file = "modpack-update-checker/versions/1.208.4/changelog.txt"
+hash = "dcb468a21573b292f2b08d6388169ae8dae5211796e6653bc89a7f6432dcdb79"
 
 [[files]]
 file = "modpack-update-checker/versions/1.79.33/changelog.txt"
@@ -6209,6 +7325,10 @@ file = "modpack-update-checker/versions/1.98.0/changelog.txt"
 hash = "af1b79966d0bbff1e24a88d45ef16cf879cda3382ad1951424f448088b77ee10"
 
 [[files]]
+file = "modpack-update-checker/versions/collect.py"
+hash = "b993c588f962b18a4915f49be618a02895b5abfb4159f76867e8625c10300485"
+
+[[files]]
 file = "modrinth banner white.png"
 hash = "2ec29c0a1654d6768b6a7307f588ab0c9ab2fbfb87f437f0ae48adc02ac276b4"
 
@@ -6502,6 +7622,11 @@ hash = "ad45afb1602ab206ec58746dec6bdf7a408211910f6d914904c9f6ad68b8776c"
 metafile = true
 
 [[files]]
+file = "mods/ptdye-plus.pw.toml"
+hash = "3275682af759449160e0ce0c3b68682112414f4aafe014efffb5c356c4c387e0"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "827b361fcddfa0bdb84bfa0ebf0e1a38b139804c92aaf9e39218d784e4111fb4"
 metafile = true
@@ -6573,8 +7698,44 @@ metafile = true
 
 [[files]]
 file = "mods/wares.pw.toml"
-hash = "0f75bd257145b2841ed739f9456a148c5e70d35084f08e997443abf0f3f77e26"
+hash = "405ac47aaf08f8f7610f70776fba185d350932b55355b994d550ba76b79595d8"
 metafile = true
+
+[[files]]
+file = "ptdye/format_untranslated_tags.php"
+hash = "f2f68da28dc40aadea3caffb9a018c03c410db817e4bd0955c84e41556f9aeeb"
+
+[[files]]
+file = "schematics/aw.nbt"
+hash = "470fd92cf1a0c15322cd33cce0a046d82305415af33441499e34f91a9767db3d"
+
+[[files]]
+file = "schematics/box.nbt"
+hash = "438159350cede5ecac0b113325fcdf42d6a33f990ea015539ab7a276d53d227e"
+
+[[files]]
+file = "schematics/d.nbt"
+hash = "247f79ae5723a1a08dd16ac7cefabb6d59f02e58d7640858cb56fb1bcabb2e34"
+
+[[files]]
+file = "schematics/d_1.nbt"
+hash = "b347f3e6a89508ca89127144d647a00440d796da157ca810d9a60547d4c254d8"
+
+[[files]]
+file = "schematics/dddd.nbt"
+hash = "243bdeb49f310e510210af6a91ad8bf10c13f6a0211ee200332ae06f74fa0dfc"
+
+[[files]]
+file = "schematics/saved.nbt"
+hash = "e6ed31b690304a0c0b7b4151cb2ff663f596c8cc96d0fa691757d4e0af2dfe3b"
+
+[[files]]
+file = "schematics/uploaded/YardenZmr/aw.nbt"
+hash = "470fd92cf1a0c15322cd33cce0a046d82305415af33441499e34f91a9767db3d"
+
+[[files]]
+file = "schematics/uploaded/YardenZmr/box.nbt"
+hash = "438159350cede5ecac0b113325fcdf42d6a33f990ea015539ab7a276d53d227e"
 
 [[files]]
 file = "server/default.server.properties"
@@ -6582,7 +7743,7 @@ hash = "fa6e77fcd1ed1bfc65f359c7450db5ebb453f67b542225b69192d0512ceed576"
 
 [[files]]
 file = "server/readme.md"
-hash = "408f2c5e471d084bebd129f3323f61f4c414bbd2715d2e318f6ae81263568b45"
+hash = "dc50ee529c9d2264f00ecfb135853d078670ffa524a4240f777896d6d3e2e008"
 
 [[files]]
 file = "server/server-icon.png"
@@ -6599,6 +7760,14 @@ hash = "e86a6ea217c0d4200f03bc9c21d406be66e6029e77c47c46448e9796a7064500"
 [[files]]
 file = "server/start-or-generate-server.sh"
 hash = "6163249488d801dc9248b64b2068509094571471a04dcabb2542ee411dd4f753"
+
+[[files]]
+file = "server/update-server.bat"
+hash = "2bc85efce4bc39ea50f400cb64816c265fd2406e9bb1b49e99bb5dc0433c0b75"
+
+[[files]]
+file = "server/update-server.sh"
+hash = "f21df4c38dbbfc184d2a5face68e17903881441a66f94e5172553ea031d4ad81"
 
 [[files]]
 file = "tools/create_original_name_aliases.py"

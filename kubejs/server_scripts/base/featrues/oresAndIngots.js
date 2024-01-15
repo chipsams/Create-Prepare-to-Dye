@@ -60,7 +60,7 @@ if (feature('Milling recipes for raw white, orange and yellow')) {
 }
 if (feature('Milling recipes for crushed white, orange and yellow')) {
     addMilling('5x iron_nugget', 'create:crushed_raw_iron')
-    addMilling('8x copper_nugget', 'create:crushed_raw_copper')
+    addMilling('8x create:copper_nugget', 'create:crushed_raw_copper')
     if (feature('Gold is 4 nuggets')) {
         addMilling(['3x gold_nugget', 'gold_nugget %50'], 'create:crushed_raw_gold')
     }else{
@@ -70,9 +70,9 @@ if (feature('Milling recipes for crushed white, orange and yellow')) {
 
 if (feature('Nerf nugget output of washing crushed stuff')) {
     removeRecipe({ id: 'create:splashing/crushed_raw_iron' })
-    addSplashing(['5x iron_nugget', 'redstone %50'], 'create:crushed_raw_iron')
+    addSplashing(['5x iron_nugget', 'white_dye'], 'create:crushed_raw_iron')
     removeRecipe({ id: 'create:splashing/crushed_raw_copper' })
-    addSplashing(['7x copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
+    addSplashing(['7x create:copper_nugget', 'clay_ball %50'], 'create:crushed_raw_copper')
 }
 if (feature('Ore processing')) {
     removeRecipe({ id: 'create:crushing/coal_ore' })
@@ -86,7 +86,7 @@ if (feature('Ore processing')) {
 
     addMilling(['2x create:crushed_raw_iron', 'create:crushed_raw_iron %75'], '#forge:ores/iron')
 
-    addMilling('5x create:crushed_raw_copper', '#forge:ores/copper')
+    addMilling('6x create:crushed_raw_copper', '#forge:ores/copper')
     // runic ore processing
     let crush_to_ingot = [
         {
@@ -116,7 +116,7 @@ if (feature('Ore processing')) {
 
 }
 if (feature('Dye into ore')) {
-    addFilling('minecraft:coal_ore', 'minecraft:stone', 'create_enchantment_industry:ink')
+    addFilling('minecraft:coal_ore', 'minecraft:stone', '200x create_enchantment_industry:ink')
 }
 if (feature('Gold')) {
     removeItem('gold_ore')
@@ -193,7 +193,7 @@ if (feature('Andesite_alloy')) {
         addFilling('create:andesite_alloy','#forge:ingots', '100x create_enchantment_industry:ink'),
         addFilling('create:andesite_alloy','#forge:ingots', '100x minecraft:milk')
     ])
-    addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x bread'])
+    addElvenTrade('8x create:andesite_alloy', ['2x #forge:ingots/manasteel', 'andesite', '4x #forge:meat'])
 }
 if (feature('Brass is gold')) {
     addMixing('2x gold_ingot', ['#forge:ingots/iron', '#forge:ingots/copper'], temperature.heated)
@@ -220,7 +220,7 @@ if (feature('Lapis')) {
     //     <item:minecraft:lapis_ore>.murdurFamily();
     //     Orechid.main.removeOreWeight(<blockstate:minecraft:lapis_ore>);
     removeItem('lapis_ore')
-    addCompacting('lapis_lazuli', '2x #forge:dusts', temperature.heated,undefined,undefined,'1000x water')
+    addCompacting('lapis_lazuli', ['2x #forge:dusts','500mb water'])
     //remove from orechid
     // addFluidTransomItem('2x lapis_lazuli', ['#forge:dyes', '#forge:lime'])
     // addFluidTransomItem('2x lapis_lazuli', '#forge:dusts/mana')
@@ -243,4 +243,23 @@ if (feature('slime from dough and lime')) {
 // // console.log('^'+Block.getBlock('minecraft:stone').defaultBlockState().asState().properties['hardness'].value)
 if (feature('Replace bricks with copper (orange ingot)')) {
     removeAndReplace('minecraft:brick', '#forge:ingots/copper')
+}
+
+if (feature('Ore crushing does not give cobblestone')) {
+    removeRecipe({ id: "create:crushing/copper_ore" })
+    removeRecipe({ id: "create:crushing/redstone_ore" })
+    addCrushing([
+        '6x redstone',
+        'redstone 50%',
+        'create:experience_nugget %70'
+    ], 'redstone_ore')
+    addCrushing([
+        '5x create:crushed_raw_copper',
+        'create:crushed_raw_copper 50%',
+        'create:experience_nugget %70'
+    ], 'copper_ore')
+}
+
+if (feature('Redstone ore outputs more direct redstone in mill')) {
+    addMilling('7x redstone', 'redstone_ore')
 }

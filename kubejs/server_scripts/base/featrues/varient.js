@@ -1,26 +1,39 @@
+/**
+ *
+ * @param {Internal.Player} player
+ */
+function getAllItems(player) {
+  // if (player.chestArmorItem.id == "quark:backpack"){
+  //   return player.chestArmorItem.nbt
+  //     .get("Inventory")
+  //     .concat(player.inventory.allItems.toArray());
+  // }
+  return player.inventory.allItems.toArray();
+}
+
 BlockEvents.placed((event) => {
-  console.info(event.block);
-  console.info(event.player.mainHandItem.id);
-  console.info(shouldAssemble(event));
   if (shouldAssemble(event)) {
     let found = false;
     allStonecuttingRecipes.forEach((recipe) => {
-      if (recipe.json["result"] == event.block.item.id && !found) {
-        let ingredient = JSON.parse(recipe.json["ingredient"]);
+      let result = recipe["result"];
+      if (result == event.block.item.id && !found) {
+        let ingredient = JSON.parse(recipe["ingredient"]);
         if (!Array.isArray(ingredient)) ingredient = [ingredient];
         ingredient.forEach((item) => {
-          let x = event.player.inventory.allItems
-            .toArray()
-            .filter((inventoryItem) => {
-              return inputPredicate(event.player, item, inventoryItem);
-            });
+          let x = getAllItems(event.player).filter((inventoryItem) => {
+            return inputPredicate(event.player, item, inventoryItem);
+          });
           if (x.length > 0 && !found) {
-            x[0].count = x[0].count - 1;
+            if (x[0].Count) x[0].Count = x[0].Count - 1;
+            else x[0].count = x[0].count - 1;
             Utils.server.scheduleInTicks(1, () => {
+              Utils.server.runCommandSilent(
+                `/playsound ui.stonecutter.take_result block @a ${event.block.x} ${event.block.y} ${event.block.z} 0.4 1.3`
+              );
               Utils.server.runCommandSilent(
                 `/item replace entity ${event.player.displayName.getString()} weapon.mainhand with ${
                   event.block.id
-                } ${recipe.json["result"]["count"]}`
+                } ${result["count"]}`
               );
             });
             found = true;
@@ -32,13 +45,21 @@ BlockEvents.placed((event) => {
 });
 
 function inputPredicate(player, item, inventoryItem) {
-    console.log(inventoryItem.tags)
-  if (player.persistentData.get("auto_assemble_nothing")==true) return false;
+  if (player.persistentData.get("auto_assemble_nothing") == true) return false;
   if (
-    player.persistentData.get("auto_assemble")==true ||
-    (player.persistentData.get("auto_assemble_generic_only")==true &&
-    Item.of(item).hasTag("forge:devices/generics"))
+    player.persistentData.get("auto_assemble") == true ||
+    (player.persistentData.get("auto_assemble_generic_only") == true &&
+      Item.of(item).hasTag("forge:devices/generics"))
   ) {
+    if (inventoryItem.id=="quark:backpack") return false;
+    // console.log(typeof inventoryItem)
+    // if (inventoryItem){
+    //   if (inventoryItem.nbt) {
+    //     console.log(inventoryItem.nbt);
+    //     return false
+    //   }
+    // }
+    // if (inventoryItem.nbt || Item.of(inventoryItem).nbt) return false
     return (
       Ingredient.of(item.item).test(inventoryItem.id) ||
       Ingredient.of("#" + item.tag).test(inventoryItem.id)
@@ -46,7 +67,11 @@ function inputPredicate(player, item, inventoryItem) {
   }
 }
 function shouldAssemble(event) {
-  return event.player.mainHandItem.id != "create:wrench" && event.player.mainHandItem.count == 1 && !event.player.isCreative();
+  return (
+    event.player.mainHandItem.id == event.block.item.id &&
+    event.player.mainHandItem.count == 1 &&
+    !event.player.isCreative()
+  );
 }
 
 ServerEvents.commandRegistry((event) => {
