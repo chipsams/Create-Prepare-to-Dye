@@ -81,3 +81,16 @@ addToTag("forge:meat/fat", [
   "minecraft:porkchop",
   "minecraft:salmon",
 ]);
+
+addToTag("forge:rolls",[
+  "ptdye:plain_roll",
+  "create:sweet_roll",
+  "ptdye:chocolate_roll",
+  "ptdye:honey_roll"
+])
+
+addToTag("forge:rolls/sweet",[
+  "create:sweet_roll",
+  "ptdye:chocolate_roll",
+  "ptdye:honey_roll"
+])

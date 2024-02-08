@@ -39,3 +39,15 @@ if (feature("Pizza recipes")) {
     addDeploying("ptdye:pizza", "ptdye:pizza_base", "kubejs:fermented_blob"),
   ]);
 }
+
+if (feature("Misc. Rolls")) {
+  addFilling("ptdye:chocolate_roll","minecraft:bread",Fluid.of("create:chocolate",250));
+  addFilling("ptdye:honey_roll","minecraft:bread",Fluid.of("create:honey",250));
+  addAssembly("ptdye:tomato_roll","minecraft:bread",[
+    addFilling("ptdye:incomplete_tomato_roll","ptdye:incomplete_tomato_roll",Fluid.of("ptdye:tomato_sauce",250)),
+    addDeploying("ptdye:incomplete_tomato_roll",["ptdye:incomplete_tomato_roll","ptdye:tomato"])
+  ])
+  addMixing("ptdye:plain_roll",["minecraft:bread","minecraft:egg"]);
+  addFilling("ptdye:chocolate_roll","ptdye:plain_roll");
+  addMixing("create:sweet_roll",["#forge:rolls/sweet",'supplementaries:soap'])
+}
