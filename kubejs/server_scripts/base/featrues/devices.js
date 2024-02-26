@@ -130,6 +130,36 @@ if (
       ],
     },
     {
+      tag: "forge:device/generating_floric",
+      generic: "ptdye:generating_floric_device",
+      included_devices: ['botania:gourmaryllis', 'botania:spectrolus', 'botania:entropinnyum', 'botania:thermalily', 'botania:endoflame', 'botania:kekimurus', 'botania:rafflowsia', 'botania:hydroangeas', 'botania:rosa_arcana'],
+      post_logic: () => {
+        ServerEvents.blockLootTables((event) => {
+          event.addSimpleBlock("ptdye:generating_floric_device", "ptdye:generating_floric_device");
+        });
+      }
+    },
+    {
+      tag: "forge:device/functional_floric",
+      generic: "ptdye:functional_floric_device",
+      included_devices: [
+        'botania:clayconia', 'botania:clayconia_chibi',
+        'botania:rannuncarpus', 'botania:rannuncarpus_chibi',
+        'botania:marimorphosis', 'botania:marimorphosis_chibi',
+        'botania:hopperhock', 'botania:hopperhock_chibi',
+        'botania:orechid', 'botania:orechid_ignem',
+        'botania:pure_daisy',
+        'botania:manastar',
+        'botania:bergamute',
+        'botania:agricarnation'
+      ],
+      post_logic: () => {
+        ServerEvents.blockLootTables((event) => {
+          event.addSimpleBlock("ptdye:functional_floric_device", "ptdye:functional_floric_device");
+        });
+      }
+    },
+    {
       tag: "forge:device/smart",
       generic: "ptdye:smart_device",
       assembly: [

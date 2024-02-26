@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ptdye:block/generating_floric_device"
+    }
+  }
+}

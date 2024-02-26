@@ -164,3 +164,55 @@ StartupEvents.registry("block", (event) => {
     .soundType("stone")
     .box(2, 0, 1, 14, 14, 15);
 });
+
+
+let botanicDeviceBlock;
+
+StartupEvents.registry("block", (event) => {
+  // botanic device
+  botanicDeviceBlock = event
+    .createCustom(
+      "ptdye:botanic_device",
+      () =>
+        new global.minecraft.FlowerBlock(
+          global.minecraft.MobEffects.NIGHT_VISION,
+          5,
+          global.minecraft.Block.BehaviourProperties.copy(Blocks.DANDELION)
+        )
+    )
+});
+
+StartupEvents.registry("item", (event) => {
+  event.createCustom(
+    "ptdye:botanic_device",
+    () => new global.minecraft.Block.BlockItem(botanicDeviceBlock.get(), new global.minecraft.ItemProperties())
+  );
+});
+
+//devices that work like flowers
+{
+  //todo: find a way to do it with a loop, when i tried it just complained about duplicate ids, as if the event was taking the newest value of id every time.
+  let generatingFloricDevice;
+  let functionalFloricDevice;
+  StartupEvents.registry("block", (event) => {
+    generatingFloricDevice = event
+    .createCustom("ptdye:generating_floric_device",
+      () => new global.minecraft.FlowerBlock(global.minecraft.MobEffects.NIGHT_VISION,5,global.minecraft.Block.BehaviourProperties.copy(Blocks.DANDELION))
+    )
+    functionalFloricDevice = event
+    .createCustom("ptdye:functional_floric_device",
+      () => new global.minecraft.FlowerBlock(global.minecraft.MobEffects.NIGHT_VISION,5,global.minecraft.Block.BehaviourProperties.copy(Blocks.DANDELION))
+    )
+  });
+  
+  StartupEvents.registry("item", (event) => {
+    event.createCustom(
+      "ptdye:generating_floric_device",
+      () => new global.minecraft.Block.BlockItem(generatingFloricDevice.get(), new global.minecraft.ItemProperties())
+    );
+    event.createCustom(
+      "ptdye:functional_floric_device",
+      () => new global.minecraft.Block.BlockItem(functionalFloricDevice.get(), new global.minecraft.ItemProperties())
+    );
+  });
+}
